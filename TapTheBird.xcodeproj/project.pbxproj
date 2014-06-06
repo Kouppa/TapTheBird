@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84675A5A1941D24E00932E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A591941D24E00932E4F /* Foundation.framework */; };
+		84675A5C1941D24E00932E4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A5B1941D24E00932E4F /* CoreGraphics.framework */; };
+		84675A5E1941D24E00932E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A5D1941D24E00932E4F /* UIKit.framework */; };
+		84675A641941D24E00932E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84675A621941D24E00932E4F /* InfoPlist.strings */; };
+		84675A661941D24E00932E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A651941D24E00932E4F /* main.m */; };
+		84675A6A1941D24E00932E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A691941D24E00932E4F /* AppDelegate.m */; };
+		84675A6D1941D24E00932E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84675A6B1941D24E00932E4F /* Main.storyboard */; };
+		84675A701941D24E00932E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A6F1941D24E00932E4F /* ViewController.m */; };
+		84675A721941D24F00932E4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84675A711941D24F00932E4F /* Images.xcassets */; };
+		84675A791941D24F00932E4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A781941D24F00932E4F /* XCTest.framework */; };
+		84675A7A1941D24F00932E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A591941D24E00932E4F /* Foundation.framework */; };
+		84675A7B1941D24F00932E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A5D1941D24E00932E4F /* UIKit.framework */; };
+		84675A831941D24F00932E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84675A811941D24F00932E4F /* InfoPlist.strings */; };
+		84675A851941D24F00932E4F /* TapTheBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A841941D24F00932E4F /* TapTheBirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84675A7C1941D24F00932E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84675A4E1941D24E00932E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84675A551941D24E00932E4F;
+			remoteInfo = TapTheBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84675A561941D24E00932E4F /* TapTheBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTheBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84675A591941D24E00932E4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84675A5B1941D24E00932E4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84675A5D1941D24E00932E4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84675A611941D24E00932E4F /* TapTheBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTheBird-Info.plist"; sourceTree = "<group>"; };
+		84675A631941D24E00932E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84675A651941D24E00932E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84675A671941D24E00932E4F /* TapTheBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapTheBird-Prefix.pch"; sourceTree = "<group>"; };
+		84675A681941D24E00932E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84675A691941D24E00932E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84675A6C1941D24E00932E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84675A6E1941D24E00932E4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84675A6F1941D24E00932E4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84675A711941D24F00932E4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84675A771941D24F00932E4F /* TapTheBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTheBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84675A781941D24F00932E4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84675A801941D24F00932E4F /* TapTheBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTheBirdTests-Info.plist"; sourceTree = "<group>"; };
+		84675A821941D24F00932E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84675A841941D24F00932E4F /* TapTheBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapTheBirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84675A531941D24E00932E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A5C1941D24E00932E4F /* CoreGraphics.framework in Frameworks */,
+				84675A5E1941D24E00932E4F /* UIKit.framework in Frameworks */,
+				84675A5A1941D24E00932E4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84675A741941D24F00932E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A791941D24F00932E4F /* XCTest.framework in Frameworks */,
+				84675A7B1941D24F00932E4F /* UIKit.framework in Frameworks */,
+				84675A7A1941D24F00932E4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84675A4D1941D24E00932E4F = {
+			isa = PBXGroup;
+			children = (
+				84675A5F1941D24E00932E4F /* TapTheBird */,
+				84675A7E1941D24F00932E4F /* TapTheBirdTests */,
+				84675A581941D24E00932E4F /* Frameworks */,
+				84675A571941D24E00932E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84675A571941D24E00932E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84675A561941D24E00932E4F /* TapTheBird.app */,
+				84675A771941D24F00932E4F /* TapTheBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84675A581941D24E00932E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84675A591941D24E00932E4F /* Foundation.framework */,
+				84675A5B1941D24E00932E4F /* CoreGraphics.framework */,
+				84675A5D1941D24E00932E4F /* UIKit.framework */,
+				84675A781941D24F00932E4F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84675A5F1941D24E00932E4F /* TapTheBird */ = {
+			isa = PBXGroup;
+			children = (
+				84675A681941D24E00932E4F /* AppDelegate.h */,
+				84675A691941D24E00932E4F /* AppDelegate.m */,
+				84675A6B1941D24E00932E4F /* Main.storyboard */,
+				84675A6E1941D24E00932E4F /* ViewController.h */,
+				84675A6F1941D24E00932E4F /* ViewController.m */,
+				84675A711941D24F00932E4F /* Images.xcassets */,
+				84675A601941D24E00932E4F /* Supporting Files */,
+			);
+			path = TapTheBird;
+			sourceTree = "<group>";
+		};
+		84675A601941D24E00932E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84675A611941D24E00932E4F /* TapTheBird-Info.plist */,
+				84675A621941D24E00932E4F /* InfoPlist.strings */,
+				84675A651941D24E00932E4F /* main.m */,
+				84675A671941D24E00932E4F /* TapTheBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84675A7E1941D24F00932E4F /* TapTheBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				84675A841941D24F00932E4F /* TapTheBirdTests.m */,
+				84675A7F1941D24F00932E4F /* Supporting Files */,
+			);
+			path = TapTheBirdTests;
+			sourceTree = "<group>";
+		};
+		84675A7F1941D24F00932E4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84675A801941D24F00932E4F /* TapTheBirdTests-Info.plist */,
+				84675A811941D24F00932E4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84675A551941D24E00932E4F /* TapTheBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBird" */;
+			buildPhases = (
+				84675A521941D24E00932E4F /* Sources */,
+				84675A531941D24E00932E4F /* Frameworks */,
+				84675A541941D24E00932E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTheBird;
+			productName = TapTheBird;
+			productReference = 84675A561941D24E00932E4F /* TapTheBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84675A761941D24F00932E4F /* TapTheBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBirdTests" */;
+			buildPhases = (
+				84675A731941D24F00932E4F /* Sources */,
+				84675A741941D24F00932E4F /* Frameworks */,
+				84675A751941D24F00932E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84675A7D1941D24F00932E4F /* PBXTargetDependency */,
+			);
+			name = TapTheBirdTests;
+			productName = TapTheBirdTests;
+			productReference = 84675A771941D24F00932E4F /* TapTheBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84675A4E1941D24E00932E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = OneMinecraftGuy;
+				TargetAttributes = {
+					84675A761941D24F00932E4F = {
+						TestTargetID = 84675A551941D24E00932E4F;
+					};
+				};
+			};
+			buildConfigurationList = 84675A511941D24E00932E4F /* Build configuration list for PBXProject "TapTheBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84675A4D1941D24E00932E4F;
+			productRefGroup = 84675A571941D24E00932E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84675A551941D24E00932E4F /* TapTheBird */,
+				84675A761941D24F00932E4F /* TapTheBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84675A541941D24E00932E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A721941D24F00932E4F /* Images.xcassets in Resources */,
+				84675A641941D24E00932E4F /* InfoPlist.strings in Resources */,
+				84675A6D1941D24E00932E4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84675A751941D24F00932E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A831941D24F00932E4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84675A521941D24E00932E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A701941D24E00932E4F /* ViewController.m in Sources */,
+				84675A6A1941D24E00932E4F /* AppDelegate.m in Sources */,
+				84675A661941D24E00932E4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84675A731941D24F00932E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84675A851941D24F00932E4F /* TapTheBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84675A7D1941D24F00932E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84675A551941D24E00932E4F /* TapTheBird */;
+			targetProxy = 84675A7C1941D24F00932E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84675A621941D24E00932E4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84675A631941D24E00932E4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84675A6B1941D24E00932E4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84675A6C1941D24E00932E4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84675A811941D24F00932E4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84675A821941D24F00932E4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84675A861941D24F00932E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84675A871941D24F00932E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84675A891941D24F00932E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
+				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84675A8A1941D24F00932E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
+				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84675A8C1941D24F00932E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapTheBird.app/TapTheBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapTheBirdTests/TapTheBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84675A8D1941D24F00932E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapTheBird.app/TapTheBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
+				INFOPLIST_FILE = "TapTheBirdTests/TapTheBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84675A511941D24E00932E4F /* Build configuration list for PBXProject "TapTheBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84675A861941D24F00932E4F /* Debug */,
+				84675A871941D24F00932E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84675A891941D24F00932E4F /* Debug */,
+				84675A8A1941D24F00932E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84675A8C1941D24F00932E4F /* Debug */,
+				84675A8D1941D24F00932E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84675A4E1941D24E00932E4F /* Project object */;
+}
