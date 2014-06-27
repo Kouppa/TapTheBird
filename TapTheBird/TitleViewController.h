@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TitleViewController.h
 //  TapTheBird
 //
 //  Created by Administrator on 6/6/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TitleViewController : UIViewController
+
+-(IBAction)exit;
 
 @end
