@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WhatViewController : UIViewController
+
+@interface WhatViewController : UIViewController{
+    IBOutlet UIImageView *ChosenView;
+    
+    IBOutlet UILabel *ChosenLabel;
+    
+}
 
 @end

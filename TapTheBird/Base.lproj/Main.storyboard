@@ -29,13 +29,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbK-xY-nPc">
-                                <rect key="frame" x="228" y="159" width="113" height="103"/>
+                                <rect key="frame" x="228" y="182" width="113" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Start!">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="pick" destination="vXZ-lx-hvc" eventType="touchDown" id="NrT-to-jCI"/>
                                     <segue destination="h4G-Xw-cgd" kind="modal" modalTransitionStyle="crossDissolve" id="M5Z-Z6-jgV"/>
                                 </connections>
                             </button>
@@ -63,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="40" y="256"/>
         </scene>
-        <!--View Controller-->
+        <!--What View Controller-->
         <scene sceneID="I3B-36-afX">
             <objects>
-                <viewController id="h4G-Xw-cgd" sceneMemberID="viewController">
+                <viewController id="h4G-Xw-cgd" customClass="WhatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="93O-1V-l4R"/>
                         <viewControllerLayoutGuide type="bottom" id="KAj-13-99X"/>
@@ -90,7 +91,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A birdtype.text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WN-hz-rXR">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A birdtype.text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WN-hz-rXR">
                                 <rect key="frame" x="182" y="149" width="204" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-BoldItalic" family="Iowan Old Style" pointSize="31"/>
@@ -104,6 +105,10 @@
                     <navigationItem key="navigationItem" id="vUj-HT-Q1K"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ChosenLabel" destination="2WN-hz-rXR" id="kLr-jF-YBu"/>
+                        <outlet property="ChosenView" destination="ikB-jK-QMS" id="ESW-Qh-wtA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEx-Ql-MUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

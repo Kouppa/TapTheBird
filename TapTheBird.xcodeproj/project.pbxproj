@@ -33,6 +33,11 @@
 		84675AA41941DE6000932E4F /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675AA31941DE6000932E4F /* TitleViewController.m */; };
 		84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE1195D78E300C3902E /* WhatViewController.m */; };
 		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
+		84BD8BEC195D82EB00C3902E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BD8BE7195D82EB00C3902E /* 1.png */; };
+		84BD8BED195D82EB00C3902E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD8BE8195D82EB00C3902E /* 2.jpg */; };
+		84BD8BEE195D82EB00C3902E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BD8BE9195D82EB00C3902E /* 3.png */; };
+		84BD8BEF195D82EB00C3902E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD8BEA195D82EB00C3902E /* 4.jpg */; };
+		84BD8BF0195D82EB00C3902E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD8BEB195D82EB00C3902E /* 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,16 +75,21 @@
 		84675A901941D2D800932E4F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		84675A921941D30200932E4F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84675A941941D69500932E4F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		84675A961941D71400932E4F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
-		84675A9C1941D9DE00932E4F /* BIRD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BIRD.png; sourceTree = "<group>"; };
-		84675A9D1941D9DE00932E4F /* TAP THE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TAP THE.png"; sourceTree = "<group>"; };
-		84675AA01941DDD200932E4F /* RED BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RED BUTTON.png"; sourceTree = "<group>"; };
+		84675A961941D71400932E4F /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../bg.jpg; sourceTree = "<group>"; };
+		84675A9C1941D9DE00932E4F /* BIRD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BIRD.png; path = ../BIRD.png; sourceTree = "<group>"; };
+		84675A9D1941D9DE00932E4F /* TAP THE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TAP THE.png"; path = "../TAP THE.png"; sourceTree = "<group>"; };
+		84675AA01941DDD200932E4F /* RED BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RED BUTTON.png"; path = "../TapTheBird/RED BUTTON.png"; sourceTree = "<group>"; };
 		84675AA21941DE6000932E4F /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
 		84675AA31941DE6000932E4F /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		84BD8BE0195D78E300C3902E /* WhatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatViewController.h; sourceTree = "<group>"; };
 		84BD8BE1195D78E300C3902E /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
 		84BD8BE3195D78F200C3902E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		84BD8BE4195D78F200C3902E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		84BD8BE7195D82EB00C3902E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		84BD8BE8195D82EB00C3902E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		84BD8BE9195D82EB00C3902E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		84BD8BEA195D82EB00C3902E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		84BD8BEB195D82EB00C3902E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +125,7 @@
 		84675A4D1941D24E00932E4F = {
 			isa = PBXGroup;
 			children = (
-				84675A9C1941D9DE00932E4F /* BIRD.png */,
-				84675A9D1941D9DE00932E4F /* TAP THE.png */,
-				84675A961941D71400932E4F /* bg.jpg */,
+				84BD8BE6195D7D7600C3902E /* Files */,
 				84675A5F1941D24E00932E4F /* TapTheBird */,
 				84675A7E1941D24F00932E4F /* TapTheBirdTests */,
 				84675A581941D24E00932E4F /* Frameworks */,
@@ -155,7 +163,6 @@
 		84675A5F1941D24E00932E4F /* TapTheBird */ = {
 			isa = PBXGroup;
 			children = (
-				84675AA01941DDD200932E4F /* RED BUTTON.png */,
 				84675A681941D24E00932E4F /* AppDelegate.h */,
 				84675A691941D24E00932E4F /* AppDelegate.m */,
 				84675A6B1941D24E00932E4F /* Main.storyboard */,
@@ -198,6 +205,22 @@
 				84675A811941D24F00932E4F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BD8BE6195D7D7600C3902E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BD8BE7195D82EB00C3902E /* 1.png */,
+				84BD8BE8195D82EB00C3902E /* 2.jpg */,
+				84BD8BE9195D82EB00C3902E /* 3.png */,
+				84BD8BEA195D82EB00C3902E /* 4.jpg */,
+				84BD8BEB195D82EB00C3902E /* 5.jpg */,
+				84675A9C1941D9DE00932E4F /* BIRD.png */,
+				84675A9D1941D9DE00932E4F /* TAP THE.png */,
+				84675A961941D71400932E4F /* bg.jpg */,
+				84675AA01941DDD200932E4F /* RED BUTTON.png */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,11 +299,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD8BEF195D82EB00C3902E /* 4.jpg in Resources */,
 				84675A9F1941D9DE00932E4F /* TAP THE.png in Resources */,
+				84BD8BEC195D82EB00C3902E /* 1.png in Resources */,
 				84675A721941D24F00932E4F /* Images.xcassets in Resources */,
+				84BD8BED195D82EB00C3902E /* 2.jpg in Resources */,
 				84675A641941D24E00932E4F /* InfoPlist.strings in Resources */,
+				84BD8BEE195D82EB00C3902E /* 3.png in Resources */,
 				84675A9E1941D9DE00932E4F /* BIRD.png in Resources */,
 				84675A971941D71400932E4F /* bg.jpg in Resources */,
+				84BD8BF0195D82EB00C3902E /* 5.jpg in Resources */,
 				84675A6D1941D24E00932E4F /* Main.storyboard in Resources */,
 				84675AA11941DDD200932E4F /* RED BUTTON.png in Resources */,
 			);
