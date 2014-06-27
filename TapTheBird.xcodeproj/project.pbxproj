@@ -31,6 +31,8 @@
 		84675A9F1941D9DE00932E4F /* TAP THE.png in Resources */ = {isa = PBXBuildFile; fileRef = 84675A9D1941D9DE00932E4F /* TAP THE.png */; };
 		84675AA11941DDD200932E4F /* RED BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 84675AA01941DDD200932E4F /* RED BUTTON.png */; };
 		84675AA41941DE6000932E4F /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675AA31941DE6000932E4F /* TitleViewController.m */; };
+		84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE1195D78E300C3902E /* WhatViewController.m */; };
+		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,10 @@
 		84675AA01941DDD200932E4F /* RED BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RED BUTTON.png"; sourceTree = "<group>"; };
 		84675AA21941DE6000932E4F /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
 		84675AA31941DE6000932E4F /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		84BD8BE0195D78E300C3902E /* WhatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatViewController.h; sourceTree = "<group>"; };
+		84BD8BE1195D78E300C3902E /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
+		84BD8BE3195D78F200C3902E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		84BD8BE4195D78F200C3902E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,10 @@
 				84675A691941D24E00932E4F /* AppDelegate.m */,
 				84675A6B1941D24E00932E4F /* Main.storyboard */,
 				84675AA21941DE6000932E4F /* TitleViewController.h */,
+				84BD8BE0195D78E300C3902E /* WhatViewController.h */,
+				84BD8BE3195D78F200C3902E /* GameViewController.h */,
+				84BD8BE4195D78F200C3902E /* GameViewController.m */,
+				84BD8BE1195D78E300C3902E /* WhatViewController.m */,
 				84675AA31941DE6000932E4F /* TitleViewController.m */,
 				84675A711941D24F00932E4F /* Images.xcassets */,
 				84675A601941D24E00932E4F /* Supporting Files */,
@@ -291,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */,
 				84675AA41941DE6000932E4F /* TitleViewController.m in Sources */,
 				84675A6A1941D24E00932E4F /* AppDelegate.m in Sources */,
+				84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */,
 				84675A661941D24E00932E4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
