@@ -8,6 +8,8 @@
 
 #import "WhatViewController.h"
 #import "TitleViewController.h"
+#import "GameViewController.h"
+
 
 @interface WhatViewController ()
 
@@ -53,11 +55,20 @@
 }
 
 -(void)up{
-    if (time==5) {
-        
+    if (time==3) {
+        [self performSegueWithIdentifier:@"GameActivate" sender:self];
     }
     time=time+1;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"GameActivate"]) {
+        GameViewController *gameViewController=(GameViewController *)segue.destinationViewController;
+        //[self presentViewController:gameViewController animated:YES completion:nil];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {

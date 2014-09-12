@@ -16,6 +16,8 @@
     
     NSTimer *timer;
     
+    NSArray *coords;
+    
     int time;
     
 }

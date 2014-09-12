@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameViewController : UIViewController
+@interface GameViewController : UIViewController{
+    NSTimer *timer;
+}
+
+-(IBAction)exit;
+    
+
 
 @end

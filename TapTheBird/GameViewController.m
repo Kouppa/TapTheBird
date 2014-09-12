@@ -23,6 +23,10 @@
     return self;
 }
 
+-(IBAction)exit{
+    exit(0);
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
