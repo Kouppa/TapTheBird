@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>530BACE7-63AA-44DD-A6CA-3F5FF79F539F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TapTheBird</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B87898816E1E173148FF7F8AEB44A659FABF2EB2</key>
+		<string>https://github.com/Kouppa/TapTheBird.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TapTheBird.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B87898816E1E173148FF7F8AEB44A659FABF2EB2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kouppa/TapTheBird.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B87898816E1E173148FF7F8AEB44A659FABF2EB2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B87898816E1E173148FF7F8AEB44A659FABF2EB2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TapTheBird</string>
+		</dict>
+	</array>
+</dict>
+</plist>
