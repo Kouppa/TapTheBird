@@ -167,11 +167,11 @@
 				84675A691941D24E00932E4F /* AppDelegate.m */,
 				84675A6B1941D24E00932E4F /* Main.storyboard */,
 				84675AA21941DE6000932E4F /* TitleViewController.h */,
-				84BD8BE0195D78E300C3902E /* WhatViewController.h */,
+				84675AA31941DE6000932E4F /* TitleViewController.m */,
 				84BD8BE3195D78F200C3902E /* GameViewController.h */,
 				84BD8BE4195D78F200C3902E /* GameViewController.m */,
+				84BD8BE0195D78E300C3902E /* WhatViewController.h */,
 				84BD8BE1195D78E300C3902E /* WhatViewController.m */,
-				84675AA31941DE6000932E4F /* TitleViewController.m */,
 				84675A711941D24F00932E4F /* Images.xcassets */,
 				84675A601941D24E00932E4F /* Supporting Files */,
 			);
@@ -462,6 +462,7 @@
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -475,6 +476,7 @@
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

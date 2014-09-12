@@ -48,6 +48,15 @@
     }else{
         ChosenLabel.text=@"wtf happened?";
     }
+    
+    timer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(up) userInfo:nil repeats:YES];
+}
+
+-(void)up{
+    if (time==5) {
+        
+    }
+    time=time+1;
 }
 
 - (void)didReceiveMemoryWarning

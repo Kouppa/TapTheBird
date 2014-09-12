@@ -14,6 +14,10 @@
     
     IBOutlet UILabel *ChosenLabel;
     
+    NSTimer *timer;
+    
+    int time;
+    
 }
 
 @end
