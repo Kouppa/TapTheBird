@@ -206,6 +206,32 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="image1" destination="ias-nV-xL2" id="rPd-Bm-HJf"/>
+                        <outlet property="image10" destination="lP2-kg-nhG" id="1DJ-op-wS5"/>
+                        <outlet property="image11" destination="sbR-qb-yPl" id="KJ7-Qh-7Fv"/>
+                        <outlet property="image12" destination="cu5-22-zPc" id="npk-Y2-up6"/>
+                        <outlet property="image13" destination="Io8-8c-GDK" id="NK4-9n-nWC"/>
+                        <outlet property="image14" destination="Ki4-2o-id2" id="wOk-vM-j1x"/>
+                        <outlet property="image15" destination="grF-vN-Q9t" id="a3b-au-1C1"/>
+                        <outlet property="image16" destination="lJy-jv-8di" id="84y-s5-dUc"/>
+                        <outlet property="image17" destination="qC6-zt-QGU" id="4WO-2H-ooZ"/>
+                        <outlet property="image18" destination="GIy-mm-Gov" id="YAP-cV-GBy"/>
+                        <outlet property="image19" destination="to7-9w-EO3" id="p3D-Ke-8vD"/>
+                        <outlet property="image2" destination="glK-Rn-V3q" id="ZZb-5h-Kaz"/>
+                        <outlet property="image20" destination="tDw-vA-oYf" id="ykb-Z8-7DJ"/>
+                        <outlet property="image21" destination="YhS-im-HUX" id="hIf-H5-3nO"/>
+                        <outlet property="image22" destination="nmL-Sq-pqK" id="KzL-BZ-EHz"/>
+                        <outlet property="image23" destination="z9I-3n-eRI" id="SNf-Qn-DRJ"/>
+                        <outlet property="image24" destination="HtI-Y5-Xyk" id="E4N-c2-K4b"/>
+                        <outlet property="image3" destination="hGf-Kk-fpq" id="Xfw-qi-xz1"/>
+                        <outlet property="image4" destination="9xX-Jf-Cxe" id="ZZa-K2-wGS"/>
+                        <outlet property="image5" destination="sL8-Bk-3jB" id="qCo-Ia-Vyd"/>
+                        <outlet property="image6" destination="Abs-Vn-yD0" id="fzI-0R-Ilp"/>
+                        <outlet property="image7" destination="aRk-uZ-ymw" id="1qQ-Fb-aok"/>
+                        <outlet property="image8" destination="SOM-r5-x5H" id="WQw-MR-GTQ"/>
+                        <outlet property="image9" destination="6Gy-9k-vIL" id="ffK-Ry-JoM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CRw-6b-FKV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
