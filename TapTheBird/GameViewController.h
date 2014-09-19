@@ -10,10 +10,9 @@
 
 @interface GameViewController : UIViewController{
     NSTimer *timer;
+    NSArray *array;
 }
 
 -(IBAction)exit;
-    
-
 
 @end
