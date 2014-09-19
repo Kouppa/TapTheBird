@@ -16,4 +16,3 @@
 -(IBAction)exit;
 
 @end
-≤
