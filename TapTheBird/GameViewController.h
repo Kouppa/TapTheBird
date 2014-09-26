@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameViewController : UIViewController{
+@interface GameViewController : UIViewController <UIGestureRecognizerDelegate>{
     NSTimer *timer;
     IBOutlet UIImageView *image1;
     IBOutlet UIImageView *image2;

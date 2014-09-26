@@ -35,6 +35,30 @@
     // Do any additional setup after loading the view.
 	coords=arc4random_uniform(23)+1;
 	NSLog(@"%D", coords);
+	image1.userInteractionEnabled=TRUE;
+	image2.userInteractionEnabled=TRUE;
+	image3.userInteractionEnabled=TRUE;
+	image4.userInteractionEnabled=TRUE;
+	image5.userInteractionEnabled=TRUE;
+	image6.userInteractionEnabled=TRUE;
+	image7.userInteractionEnabled=TRUE;
+	image8.userInteractionEnabled=TRUE;
+	image9.userInteractionEnabled=TRUE;
+	image10.userInteractionEnabled=TRUE;
+	image11.userInteractionEnabled=TRUE;
+	image12.userInteractionEnabled=TRUE;
+	image13.userInteractionEnabled=TRUE;
+	image14.userInteractionEnabled=TRUE;
+	image15.userInteractionEnabled=TRUE;
+	image16.userInteractionEnabled=TRUE;
+	image17.userInteractionEnabled=TRUE;
+	image18.userInteractionEnabled=TRUE;
+	image19.userInteractionEnabled=TRUE;
+	image20.userInteractionEnabled=TRUE;
+	image21.userInteractionEnabled=TRUE;
+	image22.userInteractionEnabled=TRUE;
+	image23.userInteractionEnabled=TRUE;
+	image24.userInteractionEnabled=TRUE;
 	if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"1.png"];
 	}if (coords==2&&birdNumber==1) {
