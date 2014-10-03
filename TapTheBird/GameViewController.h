@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface GameViewController : UIViewController{
+    int tapcoords;
     NSTimer *timer;
     IBOutlet UIImageView *image1;
     IBOutlet UIImageView *image2;

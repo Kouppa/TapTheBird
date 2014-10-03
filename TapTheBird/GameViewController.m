@@ -9,6 +9,8 @@
 #import "WhatViewController.h"
 #import "TitleViewController.h"
 #import "GameViewController.h"
+#import "LoseViewController.h"
+#import "WinViewController.h"
 
 @interface GameViewController ()
 
@@ -35,30 +37,6 @@
     // Do any additional setup after loading the view.
 	coords=arc4random_uniform(23)+1;
 	NSLog(@"%D", coords);
-	image1.userInteractionEnabled=TRUE;
-	image2.userInteractionEnabled=TRUE;
-	image3.userInteractionEnabled=TRUE;
-	image4.userInteractionEnabled=TRUE;
-	image5.userInteractionEnabled=TRUE;
-	image6.userInteractionEnabled=TRUE;
-	image7.userInteractionEnabled=TRUE;
-	image8.userInteractionEnabled=TRUE;
-	image9.userInteractionEnabled=TRUE;
-	image10.userInteractionEnabled=TRUE;
-	image11.userInteractionEnabled=TRUE;
-	image12.userInteractionEnabled=TRUE;
-	image13.userInteractionEnabled=TRUE;
-	image14.userInteractionEnabled=TRUE;
-	image15.userInteractionEnabled=TRUE;
-	image16.userInteractionEnabled=TRUE;
-	image17.userInteractionEnabled=TRUE;
-	image18.userInteractionEnabled=TRUE;
-	image19.userInteractionEnabled=TRUE;
-	image20.userInteractionEnabled=TRUE;
-	image21.userInteractionEnabled=TRUE;
-	image22.userInteractionEnabled=TRUE;
-	image23.userInteractionEnabled=TRUE;
-	image24.userInteractionEnabled=TRUE;
 	if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"1.png"];
 	}if (coords==2&&birdNumber==1) {
@@ -301,6 +279,191 @@
 		image24.image=[UIImage imageNamed:@"5.png"];
 	}
 }
+
+-(IBAction)i1{
+	tapcoords=1;
+	if (coords==1) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i2{
+	tapcoords=2;
+	if (coords==2) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i3{
+	tapcoords=3;
+	if (coords==3) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i4{
+	tapcoords=4;
+	if (coords==4) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i5{
+	tapcoords=5;
+	if (coords==5) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i6{
+	tapcoords=6;
+	if (coords==6) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i7{
+	tapcoords=7;
+	if (coords==7) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i8{
+	tapcoords=8;
+	if (coords==8) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i9{
+	tapcoords=9;
+	if (coords==9) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i10{
+	tapcoords=10;
+	if (coords==10) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i11{
+	tapcoords=11;
+	if (coords==11) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i12{
+	tapcoords=12;
+	if (coords==12) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i13{
+	tapcoords=13;
+	if (coords==13) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i14{
+	tapcoords=14;
+	if (coords==14) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i15{
+	tapcoords=15;
+	if (coords==15) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i16{
+	tapcoords=16;
+	if (coords==16) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i17{
+	tapcoords=17;
+	if (coords==17) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i18{
+	tapcoords=18;
+	if (coords==18) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i19{
+	tapcoords=19;
+	if (coords==19) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i20{
+	tapcoords=20;
+	if (coords==20) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i21{
+	tapcoords=21;
+	if (coords==21) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i22{
+	tapcoords=22;
+	if (coords==22) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i23{
+	tapcoords=23;
+	if (coords==23) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(IBAction)i24{
+	tapcoords=24;
+	if (coords==24) {
+		[self performSegueWithIdentifier:@"GameWin" sender:nil];
+	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+}
+
+-(void)prepareForLoseSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"GameLose"]) {
+        LoseViewController *loseViewController=(LoseViewController *)segue.destinationViewController;
+        //[self presentViewController:gameViewController animated:YES completion:nil];
+    }
+}
+
+-(void)prepareForWinSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"GameWin"]) {
+        WinViewController *winViewController=(WinViewController *)segue.destinationViewController;
+        //[self presentViewController:gameViewController animated:YES completion:nil];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {
