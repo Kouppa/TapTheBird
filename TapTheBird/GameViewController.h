@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameViewController : UIViewController <UIGestureRecognizerDelegate>{
+@interface GameViewController : UIViewController{
     NSTimer *timer;
     IBOutlet UIImageView *image1;
     IBOutlet UIImageView *image2;
@@ -36,6 +36,31 @@
     IBOutlet UIImageView *image24;
     int coords;
 }
+
+-(IBAction)i1;
+-(IBAction)i2;
+-(IBAction)i3;
+-(IBAction)i4;
+-(IBAction)i5;
+-(IBAction)i6;
+-(IBAction)i7;
+-(IBAction)i8;
+-(IBAction)i9;
+-(IBAction)i10;
+-(IBAction)i11;
+-(IBAction)i12;
+-(IBAction)i13;
+-(IBAction)i14;
+-(IBAction)i15;
+-(IBAction)i16;
+-(IBAction)i17;
+-(IBAction)i18;
+-(IBAction)i19;
+-(IBAction)i20;
+-(IBAction)i21;
+-(IBAction)i22;
+-(IBAction)i23;
+-(IBAction)i24;
 
 -(IBAction)exit;
 
