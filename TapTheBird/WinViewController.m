@@ -6,6 +6,10 @@
 //  Copyright (c) 2014 OneMinecraftGuy. All rights reserved.
 //
 
+#import "WhatViewController.h"
+#import "TitleViewController.h"
+#import "GameViewController.h"
+#import "LoseViewController.h"
 #import "WinViewController.h"
 
 @interface WinViewController ()
