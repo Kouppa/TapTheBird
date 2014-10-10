@@ -36,7 +36,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 	coords=arc4random_uniform(23)+1;
-	NSLog(@"%D", coords);
 	if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"1.png"];
 	}if (coords==2&&birdNumber==1) {

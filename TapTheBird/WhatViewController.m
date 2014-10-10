@@ -33,19 +33,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     if (birdNumber == 1) {
-        ChosenLabel.text=@"A One!";
+        ChosenLabel.text=@"A Parrot!";
         ChosenView.image=[UIImage imageNamed:@"1.png"];
     }else if (birdNumber == 2) {
-        ChosenLabel.text=@"A Two!";
+        ChosenLabel.text=@"A Crow!";
         ChosenView.image=[UIImage imageNamed:@"2.jpg"];
     }else if (birdNumber == 3) {
-        ChosenLabel.text=@"A Three!";
+        ChosenLabel.text=@"A Pigeon!";
         ChosenView.image=[UIImage imageNamed:@"3.png"];
     }else if (birdNumber == 4) {
-        ChosenLabel.text=@"A Four!";
+        ChosenLabel.text=@"A Chicken!";
         ChosenView.image=[UIImage imageNamed:@"4.jpg"];
     }else if (birdNumber == 5) {
-        ChosenLabel.text=@"A Five!";
+        ChosenLabel.text=@"A Duck!";
         ChosenView.image=[UIImage imageNamed:@"5.png"];
     }else{
         ChosenLabel.text=@"wtf happened?";
