@@ -24,7 +24,7 @@
 }
 
 -(IBAction)pick{
-    birdNumber = arc4random_uniform(4)+1;
+    birdNumber=arc4random_uniform(4)+1;
 }
 
 -(IBAction)exit{
