@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoseViewController : UIViewController
+@interface LoseViewController : UIViewController{
+    IBOutlet UILabel *failreason;
+}
+
 
 @end

@@ -35,6 +35,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	timercount=0;
 	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(up) userInfo:nil repeats:YES];
 	coords=arc4random_uniform(23)+1;
 	if (coords==1&&birdNumber==1) {
@@ -284,197 +285,227 @@
 	tapcoords=1;
 	if (coords==1) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i2{
-	tapcoords=2;
-	if (coords==2) {
+	tapcoords=3;
+	if (coords==3) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
+
 
 -(IBAction)i3{
 	tapcoords=3;
 	if (coords==3) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];}
 }
 
 -(IBAction)i4{
 	tapcoords=4;
 	if (coords==4) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];}
 }
 
 -(IBAction)i5{
 	tapcoords=5;
 	if (coords==5) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];}
 }
 
 -(IBAction)i6{
 	tapcoords=6;
 	if (coords==6) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];}
 }
 
 -(IBAction)i7{
 	tapcoords=7;
 	if (coords==7) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];}
 }
 
 -(IBAction)i8{
 	tapcoords=8;
 	if (coords==8) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i9{
 	tapcoords=9;
 	if (coords==9) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i10{
 	tapcoords=10;
 	if (coords==10) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i11{
 	tapcoords=11;
 	if (coords==11) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i12{
 	tapcoords=12;
 	if (coords==12) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i13{
 	tapcoords=13;
 	if (coords==13) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i14{
 	tapcoords=14;
 	if (coords==14) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i15{
 	tapcoords=15;
 	if (coords==15) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i16{
 	tapcoords=16;
 	if (coords==16) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i17{
 	tapcoords=17;
 	if (coords==17) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i18{
 	tapcoords=18;
 	if (coords==18) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i19{
 	tapcoords=19;
 	if (coords==19) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i20{
 	tapcoords=20;
 	if (coords==20) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i21{
 	tapcoords=21;
 	if (coords==21) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i22{
 	tapcoords=22;
 	if (coords==22) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i23{
 	tapcoords=23;
 	if (coords==23) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(IBAction)i24{
 	tapcoords=24;
 	if (coords==24) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
-	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
-	[timer invalidate];
+	}else{failnum=2;
+	[self performSegueWithIdentifier:@"GameLose" sender:nil];
+	[timer invalidate];}
 }
 
 -(void)up{
 	timercount=timercount+0.01;
 	timeshown.text=[NSString stringWithFormat:@"%.2f", timercount];
+	if (timercount>100) {
+		failnum=1;
+		[self performSegueWithIdentifier:@"GameLose" sender:nil];
+		[timer invalidate];
+	}
 }
 
 - (void)didReceiveMemoryWarning

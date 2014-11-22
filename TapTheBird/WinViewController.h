@@ -10,7 +10,7 @@
 
 @interface WinViewController : UIViewController{
     IBOutlet UILabel *FinalScore;
-    float score;
+    float bigscore;
 }
 
 @end

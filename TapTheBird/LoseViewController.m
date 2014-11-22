@@ -35,6 +35,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    if (failnum==1) {
+        failreason.text=[NSString stringWithFormat:@"...because you were too slow!"];
+    }else if (failnum==2){
+        failreason.text=[NSString stringWithFormat:@"...because you missed!"];
+    }else{
+        failreason.text=[NSString stringWithFormat:@"...because I suck at this.  Dammit."];
+    }
 }
 
 - (void)didReceiveMemoryWarning

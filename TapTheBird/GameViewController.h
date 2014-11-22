@@ -7,6 +7,7 @@
 //
 
 float timercount;
+int failnum;
 
 #import <UIKit/UIKit.h>
 
