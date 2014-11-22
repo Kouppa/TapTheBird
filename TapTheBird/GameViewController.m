@@ -35,6 +35,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(up) userInfo:nil repeats:YES];
 	coords=arc4random_uniform(23)+1;
 	if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"BB1.png"];
@@ -284,6 +285,7 @@
 	if (coords==1) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i2{
@@ -291,6 +293,7 @@
 	if (coords==2) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i3{
@@ -298,6 +301,7 @@
 	if (coords==3) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i4{
@@ -305,6 +309,7 @@
 	if (coords==4) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i5{
@@ -312,6 +317,7 @@
 	if (coords==5) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i6{
@@ -319,6 +325,7 @@
 	if (coords==6) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i7{
@@ -326,6 +333,7 @@
 	if (coords==7) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i8{
@@ -333,6 +341,7 @@
 	if (coords==8) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i9{
@@ -340,6 +349,7 @@
 	if (coords==9) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i10{
@@ -347,6 +357,7 @@
 	if (coords==10) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i11{
@@ -354,6 +365,7 @@
 	if (coords==11) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i12{
@@ -361,6 +373,7 @@
 	if (coords==12) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i13{
@@ -368,6 +381,7 @@
 	if (coords==13) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i14{
@@ -375,6 +389,7 @@
 	if (coords==14) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i15{
@@ -382,6 +397,7 @@
 	if (coords==15) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i16{
@@ -389,6 +405,7 @@
 	if (coords==16) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i17{
@@ -396,6 +413,7 @@
 	if (coords==17) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i18{
@@ -403,6 +421,7 @@
 	if (coords==18) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i19{
@@ -410,6 +429,7 @@
 	if (coords==19) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i20{
@@ -417,6 +437,7 @@
 	if (coords==20) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i21{
@@ -424,6 +445,7 @@
 	if (coords==21) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i22{
@@ -431,6 +453,7 @@
 	if (coords==22) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i23{
@@ -438,6 +461,7 @@
 	if (coords==23) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
 }
 
 -(IBAction)i24{
@@ -445,6 +469,12 @@
 	if (coords==24) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else([self performSegueWithIdentifier:@"GameLose" sender:nil]);
+	[timer invalidate];
+}
+
+-(void)up{
+	timercount=timercount+0.01;
+	timeshown.text=[NSString stringWithFormat:@"%.2f", timercount];
 }
 
 -(void)prepareForLoseSegue:(UIStoryboardSegue *)segue sender:(id)sender

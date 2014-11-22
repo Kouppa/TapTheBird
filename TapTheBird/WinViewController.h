@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WinViewController : UIViewController
+@interface WinViewController : UIViewController{
+    IBOutlet UILabel *FinalScore;
+    float score;
+}
 
 @end

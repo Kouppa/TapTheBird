@@ -6,11 +6,14 @@
 //  Copyright (c) 2014 OneMinecraftGuy. All rights reserved.
 //
 
+float timercount;
+
 #import <UIKit/UIKit.h>
 
 @interface GameViewController : UIViewController{
     int tapcoords;
     NSTimer *timer;
+    IBOutlet UILabel *timeshown;
     IBOutlet UIImageView *image1;
     IBOutlet UIImageView *image2;
     IBOutlet UIImageView *image3;
