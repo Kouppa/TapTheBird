@@ -280,6 +280,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = OneMCGuy;
 				TargetAttributes = {
+					84675A551941D24E00932E4F = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 					84675A761941D24F00932E4F = {
 						TestTargetID = 84675A551941D24E00932E4F;
 					};
@@ -473,6 +480,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -487,6 +495,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

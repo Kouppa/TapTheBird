@@ -32,6 +32,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    birdNumber=arc4random_uniform(4)+1;
     if (birdNumber == 1) {
         ChosenLabel.text=@"A Woodpecker!";
         ChosenView.image=[UIImage imageNamed:@"B1.png"];

@@ -23,10 +23,6 @@
     return self;
 }
 
--(IBAction)pick{
-    birdNumber=arc4random_uniform(4)+1;
-}
-
 -(IBAction)exit{
     exit(0);
 }

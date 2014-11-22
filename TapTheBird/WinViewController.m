@@ -36,7 +36,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     score=100-timercount;
-   FinalScore.text=[NSString stringWithFormat:@"%.2f points!",score];
+    score=score*100;
+   FinalScore.text=[NSString stringWithFormat:@"%.0f points!",score];
 }
 
 - (void)didReceiveMemoryWarning

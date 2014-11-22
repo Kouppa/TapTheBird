@@ -13,6 +13,5 @@ int birdNumber;
 @interface TitleViewController : UIViewController
 
 -(IBAction)exit;
--(IBAction)pick;
 
 @end

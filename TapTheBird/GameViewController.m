@@ -38,7 +38,7 @@
 	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(up) userInfo:nil repeats:YES];
 	coords=arc4random_uniform(23)+1;
 	if (coords==1&&birdNumber==1) {
-		image1.image=[UIImage imageNamed:@"BB1.png"];
+		image1.image=[UIImage imageNamed:@"B1.png"];
 	}if (coords==2&&birdNumber==1) {
 		image2.image=[UIImage imageNamed:@"B1.png"];
 	}if (coords==3&&birdNumber==1) {
@@ -476,23 +476,6 @@
 	timercount=timercount+0.01;
 	timeshown.text=[NSString stringWithFormat:@"%.2f", timercount];
 }
-
--(void)prepareForLoseSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"GameLose"]) {
-        LoseViewController *loseViewController=(LoseViewController *)segue.destinationViewController;
-        //[self presentViewController:gameViewController animated:YES completion:nil];
-    }
-}
-
--(void)prepareForWinSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"GameWin"]) {
-        WinViewController *winViewController=(WinViewController *)segue.destinationViewController;
-        //[self presentViewController:gameViewController animated:YES completion:nil];
-    }
-}
-
 
 - (void)didReceiveMemoryWarning
 {
