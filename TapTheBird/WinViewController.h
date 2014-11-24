@@ -16,5 +16,6 @@
 }
 
 -(IBAction)backToTop;
+-(IBAction)btnFacebookSharing_Clicked:(id)sender;
 
 @end

@@ -588,6 +588,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPj-k9-qCU">
+                                <rect key="frame" x="114" y="193" width="106" height="106"/>
+                                <state key="normal" title="Button" image="Facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnFacebookSharing_Clicked:" destination="bO3-7u-M5A" eventType="touchDown" id="Cwa-rf-Jap"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -599,11 +608,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34z-90-1WM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2087" y="90"/>
+            <point key="canvasLocation" x="2087" y="89"/>
         </scene>
     </scenes>
     <resources>
         <image name="BIRD.png" width="188" height="48"/>
+        <image name="Facebook.png" width="2340" height="2365"/>
         <image name="RED BUTTON.png" width="900" height="896"/>
         <image name="TAP THE.png" width="327" height="48"/>
         <image name="bg.jpg" width="640" height="640"/>

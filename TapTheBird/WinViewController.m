@@ -11,6 +11,7 @@
 #import "GameViewController.h"
 #import "LoseViewController.h"
 #import "WinViewController.h"
+#import <Social/Social.h>
 
 @interface WinViewController ()
 
@@ -56,6 +57,14 @@
 
 -(IBAction)backToTop{
     [self.presentingViewController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(IBAction)btnFacebookSharing_Clicked:(id)sender{
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+        SLComposeViewController *fbSheetOBJ = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        [fbSheetOBJ setInitialText:[NSString stringWithFormat:@"I have a highscore of %.0f on this awsome game called 'Tap The Bird'", highscore]];
+        [self presentViewController:fbSheetOBJ animated:YES completion:Nil];
+    }
 }
 
 /*

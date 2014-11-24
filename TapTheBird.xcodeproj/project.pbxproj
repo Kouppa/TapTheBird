@@ -38,6 +38,8 @@
 		8489E03119E7F6E20001FA14 /* TAP THE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8489E02819E7F6E20001FA14 /* TAP THE.png */; };
 		84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE1195D78E300C3902E /* WhatViewController.m */; };
 		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
+		84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90D1A233D5800CBEBC7 /* Twitter.png */; };
+		84CCC9101A233D5F00CBEBC7 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90F1A233D5F00CBEBC7 /* Facebook.png */; };
 		84DC30D219DEB70300AE90E0 /* LoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D119DEB70300AE90E0 /* LoseViewController.m */; };
 		84DC30D519DEB70D00AE90E0 /* WinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D419DEB70D00AE90E0 /* WinViewController.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +94,8 @@
 		84BD8BE1195D78E300C3902E /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
 		84BD8BE3195D78F200C3902E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		84BD8BE4195D78F200C3902E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameViewController.m; sourceTree = "<group>"; usesTabs = 1; };
+		84CCC90D1A233D5800CBEBC7 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter.png; path = ../TapTheBird/Twitter.png; sourceTree = "<group>"; };
+		84CCC90F1A233D5F00CBEBC7 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = ../TapTheBird/Facebook.png; sourceTree = "<group>"; };
 		84DC30D019DEB70300AE90E0 /* LoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoseViewController.h; sourceTree = "<group>"; };
 		84DC30D119DEB70300AE90E0 /* LoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoseViewController.m; sourceTree = "<group>"; };
 		84DC30D319DEB70D00AE90E0 /* WinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinViewController.h; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 		8489E01F19E7F6E20001FA14 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				84CCC90F1A233D5F00CBEBC7 /* Facebook.png */,
+				84CCC90D1A233D5800CBEBC7 /* Twitter.png */,
 				8489E02019E7F6E20001FA14 /* B1.png */,
 				8489E02119E7F6E20001FA14 /* B2.png */,
 				8489E02219E7F6E20001FA14 /* B3.png */,
@@ -322,8 +328,10 @@
 				8489E02E19E7F6E20001FA14 /* bg.jpg in Resources */,
 				8489E02F19E7F6E20001FA14 /* BIRD.png in Resources */,
 				8489E02C19E7F6E20001FA14 /* B4.png in Resources */,
+				84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */,
 				8489E02A19E7F6E20001FA14 /* B2.png in Resources */,
 				8489E02919E7F6E20001FA14 /* B1.png in Resources */,
+				84CCC9101A233D5F00CBEBC7 /* Facebook.png in Resources */,
 				84675A721941D24F00932E4F /* Images.xcassets in Resources */,
 				84675A641941D24E00932E4F /* InfoPlist.strings in Resources */,
 				8489E02B19E7F6E20001FA14 /* B3.png in Resources */,
