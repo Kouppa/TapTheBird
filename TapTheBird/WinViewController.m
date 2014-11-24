@@ -54,6 +54,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)backToTop{
+    [self.presentingViewController.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
 /*
 #pragma mark - Navigation
 

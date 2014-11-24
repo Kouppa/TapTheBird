@@ -15,4 +15,6 @@
     IBOutlet UILabel *HighScore;
 }
 
+-(IBAction)backToTop;
+
 @end

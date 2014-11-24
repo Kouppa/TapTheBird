@@ -12,5 +12,6 @@
     IBOutlet UILabel *failreason;
 }
 
+-(IBAction)backToTop;
 
 @end
