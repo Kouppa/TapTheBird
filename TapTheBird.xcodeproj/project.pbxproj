@@ -40,6 +40,9 @@
 		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
 		84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90D1A233D5800CBEBC7 /* Twitter.png */; };
 		84CCC9101A233D5F00CBEBC7 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90F1A233D5F00CBEBC7 /* Facebook.png */; };
+		84CCC9201A234B6400CBEBC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CCC91F1A234B6400CBEBC7 /* AudioToolbox.framework */; };
+		84CCC9221A234B6A00CBEBC7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CCC9211A234B6A00CBEBC7 /* MessageUI.framework */; };
+		84CCC9241A234B7300CBEBC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CCC9231A234B7300CBEBC7 /* SystemConfiguration.framework */; };
 		84DC30D219DEB70300AE90E0 /* LoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D119DEB70300AE90E0 /* LoseViewController.m */; };
 		84DC30D519DEB70D00AE90E0 /* WinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D419DEB70D00AE90E0 /* WinViewController.m */; };
 /* End PBXBuildFile section */
@@ -96,6 +99,9 @@
 		84BD8BE4195D78F200C3902E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameViewController.m; sourceTree = "<group>"; usesTabs = 1; };
 		84CCC90D1A233D5800CBEBC7 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter.png; path = ../TapTheBird/Twitter.png; sourceTree = "<group>"; };
 		84CCC90F1A233D5F00CBEBC7 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = ../TapTheBird/Facebook.png; sourceTree = "<group>"; };
+		84CCC91F1A234B6400CBEBC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84CCC9211A234B6A00CBEBC7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84CCC9231A234B7300CBEBC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		84DC30D019DEB70300AE90E0 /* LoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoseViewController.h; sourceTree = "<group>"; };
 		84DC30D119DEB70300AE90E0 /* LoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoseViewController.m; sourceTree = "<group>"; };
 		84DC30D319DEB70D00AE90E0 /* WinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinViewController.h; sourceTree = "<group>"; };
@@ -107,13 +113,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84675A911941D2D800932E4F /* StoreKit.framework in Frameworks */,
+				84675A931941D30200932E4F /* AVFoundation.framework in Frameworks */,
+				84675A5C1941D24E00932E4F /* CoreGraphics.framework in Frameworks */,
+				84CCC9241A234B7300CBEBC7 /* SystemConfiguration.framework in Frameworks */,
+				84CCC9221A234B6A00CBEBC7 /* MessageUI.framework in Frameworks */,
+				84CCC9201A234B6400CBEBC7 /* AudioToolbox.framework in Frameworks */,
 				8457619B19455D5A00B58486 /* Twitter.framework in Frameworks */,
 				8457619919455CC500B58486 /* iAd.framework in Frameworks */,
 				84675A951941D69500932E4F /* Social.framework in Frameworks */,
-				84675A931941D30200932E4F /* AVFoundation.framework in Frameworks */,
-				84675A911941D2D800932E4F /* StoreKit.framework in Frameworks */,
 				84675A8F1941D2C800932E4F /* GameKit.framework in Frameworks */,
-				84675A5C1941D24E00932E4F /* CoreGraphics.framework in Frameworks */,
 				84675A5E1941D24E00932E4F /* UIKit.framework in Frameworks */,
 				84675A5A1941D24E00932E4F /* Foundation.framework in Frameworks */,
 			);
@@ -155,6 +164,9 @@
 		84675A581941D24E00932E4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84CCC9231A234B7300CBEBC7 /* SystemConfiguration.framework */,
+				84CCC9211A234B6A00CBEBC7 /* MessageUI.framework */,
+				84CCC91F1A234B6400CBEBC7 /* AudioToolbox.framework */,
 				8457619A19455D5A00B58486 /* Twitter.framework */,
 				8457619819455CC500B58486 /* iAd.framework */,
 				8457619619455C7200B58486 /* AdSupport.framework */,
@@ -489,6 +501,10 @@
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapTheBird",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -504,6 +520,10 @@
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TapTheBird",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

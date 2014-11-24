@@ -25,16 +25,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BIRD.png" translatesAutoresizingMaskIntoConstraints="NO" id="o04-rA-Whf">
                                 <rect key="frame" x="189" y="92" width="191" height="59"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbK-xY-nPc">
-                                <rect key="frame" x="228" y="182" width="113" height="103"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Start!">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="h4G-Xw-cgd" kind="modal" modalTransitionStyle="crossDissolve" id="M5Z-Z6-jgV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGP-uS-z57">
                                 <rect key="frame" x="20" y="20" width="37" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -44,6 +34,16 @@
                                 </state>
                                 <connections>
                                     <action selector="exit" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lcy-ky-eow"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbK-xY-nPc">
+                                <rect key="frame" x="228" y="159" width="113" height="103"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="h4G-Xw-cgd" kind="modal" modalTransitionStyle="crossDissolve" id="M5Z-Z6-jgV"/>
                                 </connections>
                             </button>
                         </subviews>
