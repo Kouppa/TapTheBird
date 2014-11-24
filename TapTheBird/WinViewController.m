@@ -67,6 +67,16 @@
     }
 }
 
+-(IBAction)btnTwitterSharing_Clicked:(id)sender{
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetSheetOBJ = [SLComposeViewController
+                                                  composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetSheetOBJ setInitialText:[NSString stringWithFormat:@"I have a highscore of %.0f on this awsome game called 'Tap The Bird'", highscore]];
+        [self presentViewController:tweetSheetOBJ animated:YES completion:nil];
+    }
+}
+
 /*
 #pragma mark - Navigation
 

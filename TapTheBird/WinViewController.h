@@ -17,5 +17,6 @@
 
 -(IBAction)backToTop;
 -(IBAction)btnFacebookSharing_Clicked:(id)sender;
+-(IBAction)btnTwitterSharing_Clicked:(id)sender;
 
 @end
