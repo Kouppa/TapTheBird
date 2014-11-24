@@ -35,8 +35,17 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    bigscore=100-timercount;
-    FinalScore.text=[NSString stringWithFormat:@"%.0f points!",bigscore];
+    thisscore=100-timercount;
+    FinalScore.text=[NSString stringWithFormat:@"%.0f points!",thisscore];
+    NSUserDefaults *highScore=[NSUserDefaults standardUserDefaults];
+    highscore=[highScore floatForKey:@"savedHighScore"];
+    if (thisscore>highscore) {
+        [highScore setFloat:thisscore forKey:@"savedHighScore"];
+        [highScore synchronize];
+        highscore=thisscore;
+       
+    }
+     HighScore.text=[NSString stringWithFormat:@"%.0f", highscore];
 }
 
 - (void)didReceiveMemoryWarning

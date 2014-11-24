@@ -36,7 +36,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 	timercount=0;
-	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(up) userInfo:nil repeats:YES];
+	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
 	coords=arc4random_uniform(23)+1;
 	if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"B1.png"];
@@ -498,14 +498,20 @@
 	[timer invalidate];}
 }
 
--(void)up{
+-(void)upgame{
 	timercount=timercount+0.01;
 	timeshown.text=[NSString stringWithFormat:@"%.2f", timercount];
 	if (timercount>100) {
 		failnum=1;
 		[self performSegueWithIdentifier:@"GameLose" sender:nil];
 		[timer invalidate];
+		
 	}
+}
+
+-(void)viewDidDisappear:(BOOL)animated{
+	timer=nil;
+	timercount=0;
 }
 
 - (void)didReceiveMemoryWarning
