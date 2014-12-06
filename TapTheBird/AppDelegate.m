@@ -25,16 +25,16 @@
         // Windowスクリーンのサイズを取得
         CGRect r = [[UIScreen mainScreen] bounds];
         // 縦の長さが480の場合、古いiPhoneだと判定
-        if(r.size.height == 480){
+        if(r.size.width == 480){
              NSLog(@"iPhone 4/4S");
             storyBoardName = @"3.5";
-        }if (r.size.height == 568){
+        }if (r.size.width == 568){
              NSLog(@"iPhone 5/5S/5C");
             storyBoardName = @"4.0";
-        }if (r.size.height == 667){
+        }if (r.size.width == 667){
             NSLog(@"iPhone 6");
             storyBoardName=@"4.7";
-        }if (r.size.height == 960) {
+        }if (r.size.width == 960) {
             NSLog(@"Bending Machine");
             storyBoardName=@"5.5";
         }
