@@ -36,6 +36,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.view addSubview:winAd];
     thisscore=100-timercount;
     FinalScore.text=[NSString stringWithFormat:@"%.0f points!",thisscore];
     NSUserDefaults *highScore=[NSUserDefaults standardUserDefaults];

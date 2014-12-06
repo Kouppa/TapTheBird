@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
-
+#import <iAd/iAd.h>
 int birdNumber;
 
 @interface TitleViewController : UIViewController
 {
-    IBOutlet GADBannerView* bannerView;
+    IBOutlet ADBannerView *titleAd;
 }
 -(IBAction)exit;
 

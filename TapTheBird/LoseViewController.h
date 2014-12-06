@@ -10,6 +10,7 @@
 
 @interface LoseViewController : UIViewController{
     IBOutlet UILabel *failreason;
+    IBOutlet ADBannerView *loseAd;
 }
 
 -(IBAction)backToTop;

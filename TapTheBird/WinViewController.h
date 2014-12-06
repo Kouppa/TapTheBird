@@ -13,6 +13,7 @@
     float thisscore;
     float highscore;
     IBOutlet UILabel *HighScore;
+    IBOutlet ADBannerView *winAd;
 }
 
 -(IBAction)backToTop;
