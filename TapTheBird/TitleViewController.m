@@ -20,6 +20,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        [self.view addSubview:titleAd];
     }
     return self;
 }
@@ -38,7 +39,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    [self.view addSubview:titleAd];
 }
 
 /*

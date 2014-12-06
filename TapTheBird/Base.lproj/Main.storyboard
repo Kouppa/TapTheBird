@@ -524,6 +524,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="failreason" destination="7ZW-cB-SlY" id="vtQ-Dr-82F"/>
+                        <outlet property="loseAd" destination="Qtr-fH-Ry9" id="oHp-mC-5pL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORY-4g-iY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -625,6 +626,7 @@
                     <connections>
                         <outlet property="FinalScore" destination="wBW-KE-m9e" id="QRW-MX-AOp"/>
                         <outlet property="HighScore" destination="aWF-PO-hMx" id="ZAG-IY-c5b"/>
+                        <outlet property="winAd" destination="WI6-OG-Iiv" id="glw-ts-krB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34z-90-1WM" userLabel="First Responder" sceneMemberID="firstResponder"/>
