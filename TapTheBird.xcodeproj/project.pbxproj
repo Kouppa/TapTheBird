@@ -15,7 +15,7 @@
 		84675A641941D24E00932E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84675A621941D24E00932E4F /* InfoPlist.strings */; };
 		84675A661941D24E00932E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A651941D24E00932E4F /* main.m */; };
 		84675A6A1941D24E00932E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A691941D24E00932E4F /* AppDelegate.m */; };
-		84675A6D1941D24E00932E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84675A6B1941D24E00932E4F /* Main.storyboard */; };
+		84675A6D1941D24E00932E4F /* 4.0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84675A6B1941D24E00932E4F /* 4.0.storyboard */; };
 		84675A721941D24F00932E4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84675A711941D24F00932E4F /* Images.xcassets */; };
 		84675A791941D24F00932E4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A781941D24F00932E4F /* XCTest.framework */; };
 		84675A7A1941D24F00932E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A591941D24E00932E4F /* Foundation.framework */; };
@@ -36,6 +36,10 @@
 		8489E02F19E7F6E20001FA14 /* BIRD.png in Resources */ = {isa = PBXBuildFile; fileRef = 8489E02619E7F6E20001FA14 /* BIRD.png */; };
 		8489E03019E7F6E20001FA14 /* RED BUTTON.png in Resources */ = {isa = PBXBuildFile; fileRef = 8489E02719E7F6E20001FA14 /* RED BUTTON.png */; };
 		8489E03119E7F6E20001FA14 /* TAP THE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8489E02819E7F6E20001FA14 /* TAP THE.png */; };
+		849A3AF21A32EFF700D4146D /* 3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF11A32EFF700D4146D /* 3.5.storyboard */; };
+		849A3AF41A32F65600D4146D /* 4.7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF31A32F65600D4146D /* 4.7.storyboard */; };
+		849A3AF61A32F99200D4146D /* 5.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF51A32F99200D4146D /* 5.5.storyboard */; };
+		849A3AF81A32FAD900D4146D /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF71A32FAD900D4146D /* iPad.storyboard */; };
 		84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE1195D78E300C3902E /* WhatViewController.m */; };
 		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
 		84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90D1A233D5800CBEBC7 /* Twitter.png */; };
@@ -71,7 +75,7 @@
 		84675A671941D24E00932E4F /* TapTheBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapTheBird-Prefix.pch"; sourceTree = "<group>"; };
 		84675A681941D24E00932E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84675A691941D24E00932E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84675A6C1941D24E00932E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84675A6C1941D24E00932E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/4.0.storyboard; sourceTree = "<group>"; };
 		84675A711941D24F00932E4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84675A771941D24F00932E4F /* TapTheBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTheBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84675A781941D24F00932E4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -93,6 +97,10 @@
 		8489E02619E7F6E20001FA14 /* BIRD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BIRD.png; sourceTree = "<group>"; };
 		8489E02719E7F6E20001FA14 /* RED BUTTON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RED BUTTON.png"; sourceTree = "<group>"; };
 		8489E02819E7F6E20001FA14 /* TAP THE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TAP THE.png"; sourceTree = "<group>"; };
+		849A3AF11A32EFF700D4146D /* 3.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5.storyboard; sourceTree = "<group>"; };
+		849A3AF31A32F65600D4146D /* 4.7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 4.7.storyboard; sourceTree = "<group>"; };
+		849A3AF51A32F99200D4146D /* 5.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 5.5.storyboard; sourceTree = "<group>"; };
+		849A3AF71A32FAD900D4146D /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		84BD8BE0195D78E300C3902E /* WhatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatViewController.h; sourceTree = "<group>"; };
 		84BD8BE1195D78E300C3902E /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
 		84BD8BE3195D78F200C3902E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -187,7 +195,11 @@
 			children = (
 				84675A681941D24E00932E4F /* AppDelegate.h */,
 				84675A691941D24E00932E4F /* AppDelegate.m */,
-				84675A6B1941D24E00932E4F /* Main.storyboard */,
+				849A3AF11A32EFF700D4146D /* 3.5.storyboard */,
+				84675A6B1941D24E00932E4F /* 4.0.storyboard */,
+				849A3AF31A32F65600D4146D /* 4.7.storyboard */,
+				849A3AF51A32F99200D4146D /* 5.5.storyboard */,
+				849A3AF71A32FAD900D4146D /* iPad.storyboard */,
 				84675AA21941DE6000932E4F /* TitleViewController.h */,
 				84675AA31941DE6000932E4F /* TitleViewController.m */,
 				84BD8BE0195D78E300C3902E /* WhatViewController.h */,
@@ -337,17 +349,21 @@
 				8489E03119E7F6E20001FA14 /* TAP THE.png in Resources */,
 				8489E03019E7F6E20001FA14 /* RED BUTTON.png in Resources */,
 				8489E02D19E7F6E20001FA14 /* B5.png in Resources */,
+				849A3AF21A32EFF700D4146D /* 3.5.storyboard in Resources */,
+				849A3AF61A32F99200D4146D /* 5.5.storyboard in Resources */,
 				8489E02E19E7F6E20001FA14 /* bg.jpg in Resources */,
 				8489E02F19E7F6E20001FA14 /* BIRD.png in Resources */,
 				8489E02C19E7F6E20001FA14 /* B4.png in Resources */,
 				84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */,
 				8489E02A19E7F6E20001FA14 /* B2.png in Resources */,
+				849A3AF81A32FAD900D4146D /* iPad.storyboard in Resources */,
 				8489E02919E7F6E20001FA14 /* B1.png in Resources */,
 				84CCC9101A233D5F00CBEBC7 /* Facebook.png in Resources */,
 				84675A721941D24F00932E4F /* Images.xcassets in Resources */,
 				84675A641941D24E00932E4F /* InfoPlist.strings in Resources */,
 				8489E02B19E7F6E20001FA14 /* B3.png in Resources */,
-				84675A6D1941D24E00932E4F /* Main.storyboard in Resources */,
+				849A3AF41A32F65600D4146D /* 4.7.storyboard in Resources */,
+				84675A6D1941D24E00932E4F /* 4.0.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,12 +419,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		84675A6B1941D24E00932E4F /* Main.storyboard */ = {
+		84675A6B1941D24E00932E4F /* 4.0.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84675A6C1941D24E00932E4F /* Base */,
 			);
-			name = Main.storyboard;
+			name = 4.0.storyboard;
 			sourceTree = "<group>";
 		};
 		84675A811941D24F00932E4F /* InfoPlist.strings */ = {
