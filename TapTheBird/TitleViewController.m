@@ -41,6 +41,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)noQuit{
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+
+}
+
 /*
 #pragma mark - Navigation
 

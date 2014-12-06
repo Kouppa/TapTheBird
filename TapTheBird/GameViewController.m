@@ -509,6 +509,10 @@
 	}
 }
 
+-(IBAction)pause{
+	
+}
+
 -(void)viewDidDisappear:(BOOL)animated{
 	timer=nil;
 	timercount=0;

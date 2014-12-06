@@ -39,7 +39,6 @@
 		849A3AF21A32EFF700D4146D /* 3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF11A32EFF700D4146D /* 3.5.storyboard */; };
 		849A3AF41A32F65600D4146D /* 4.7.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF31A32F65600D4146D /* 4.7.storyboard */; };
 		849A3AF61A32F99200D4146D /* 5.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF51A32F99200D4146D /* 5.5.storyboard */; };
-		849A3AF81A32FAD900D4146D /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A3AF71A32FAD900D4146D /* iPad.storyboard */; };
 		84BD8BE2195D78E300C3902E /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE1195D78E300C3902E /* WhatViewController.m */; };
 		84BD8BE5195D78F200C3902E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8BE4195D78F200C3902E /* GameViewController.m */; };
 		84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CCC90D1A233D5800CBEBC7 /* Twitter.png */; };
@@ -100,7 +99,6 @@
 		849A3AF11A32EFF700D4146D /* 3.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3.5.storyboard; sourceTree = "<group>"; };
 		849A3AF31A32F65600D4146D /* 4.7.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 4.7.storyboard; sourceTree = "<group>"; };
 		849A3AF51A32F99200D4146D /* 5.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 5.5.storyboard; sourceTree = "<group>"; };
-		849A3AF71A32FAD900D4146D /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		84BD8BE0195D78E300C3902E /* WhatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatViewController.h; sourceTree = "<group>"; };
 		84BD8BE1195D78E300C3902E /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
 		84BD8BE3195D78F200C3902E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
@@ -199,17 +197,16 @@
 				84675A6B1941D24E00932E4F /* 4.0.storyboard */,
 				849A3AF31A32F65600D4146D /* 4.7.storyboard */,
 				849A3AF51A32F99200D4146D /* 5.5.storyboard */,
-				849A3AF71A32FAD900D4146D /* iPad.storyboard */,
 				84675AA21941DE6000932E4F /* TitleViewController.h */,
 				84675AA31941DE6000932E4F /* TitleViewController.m */,
 				84BD8BE0195D78E300C3902E /* WhatViewController.h */,
 				84BD8BE1195D78E300C3902E /* WhatViewController.m */,
 				84BD8BE3195D78F200C3902E /* GameViewController.h */,
 				84BD8BE4195D78F200C3902E /* GameViewController.m */,
-				84DC30D019DEB70300AE90E0 /* LoseViewController.h */,
-				84DC30D119DEB70300AE90E0 /* LoseViewController.m */,
 				84DC30D319DEB70D00AE90E0 /* WinViewController.h */,
 				84DC30D419DEB70D00AE90E0 /* WinViewController.m */,
+				84DC30D019DEB70300AE90E0 /* LoseViewController.h */,
+				84DC30D119DEB70300AE90E0 /* LoseViewController.m */,
 				84675A711941D24F00932E4F /* Images.xcassets */,
 				84675A601941D24E00932E4F /* Supporting Files */,
 			);
@@ -356,7 +353,6 @@
 				8489E02C19E7F6E20001FA14 /* B4.png in Resources */,
 				84CCC90E1A233D5800CBEBC7 /* Twitter.png in Resources */,
 				8489E02A19E7F6E20001FA14 /* B2.png in Resources */,
-				849A3AF81A32FAD900D4146D /* iPad.storyboard in Resources */,
 				8489E02919E7F6E20001FA14 /* B1.png in Resources */,
 				84CCC9101A233D5F00CBEBC7 /* Facebook.png in Resources */,
 				84675A721941D24F00932E4F /* Images.xcassets in Resources */,

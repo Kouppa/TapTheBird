@@ -15,5 +15,6 @@ int birdNumber;
     IBOutlet ADBannerView *titleAd;
 }
 -(IBAction)exit;
+-(IBAction)noQuit;
 
 @end

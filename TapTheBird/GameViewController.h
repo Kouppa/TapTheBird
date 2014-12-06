@@ -67,6 +67,6 @@ int failnum;
 -(IBAction)i23;
 -(IBAction)i24;
 
--(IBAction)exit;
+-(IBAction)pause;
 
 @end

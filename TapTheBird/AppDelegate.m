@@ -34,13 +34,13 @@
         }if (r.size.width == 667){
             NSLog(@"iPhone 6");
             storyBoardName=@"4.7";
-        }if (r.size.width == 960) {
+        }if (r.size.width == 736) {
             NSLog(@"Bending Machine");
             storyBoardName=@"5.5";
         }
     }else{
          NSLog(@"iPad");
-        storyBoardName = @"iPad";
+        storyBoardName = @"3.5";
     }
     // StoryBoardのインスタンス化
     storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle:nil];
