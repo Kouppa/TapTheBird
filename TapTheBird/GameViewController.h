@@ -11,7 +11,7 @@ int failnum;
 
 #import <UIKit/UIKit.h>
 
-@interface GameViewController : UIViewController{
+@interface GameViewController : UIViewController <UIAlertViewDelegate>{
     int tapcoords;
     NSTimer *timer;
     IBOutlet UILabel *timeshown;

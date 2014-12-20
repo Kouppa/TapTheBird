@@ -510,8 +510,20 @@
 }
 
 -(IBAction)pause{
-	
+	[timer invalidate];
+	UIAlertView *pause = [[UIAlertView alloc] initWithTitle:@"Paused" message:@"The game has been paused.  Please resume." delegate:self cancelButtonTitle:@"Resume" otherButtonTitles:@"Quit to Title",nil];
+	[pause show];
 }
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+	if (buttonIndex == 0) {
+		timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
+	}else{
+		[self.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+	}
+}
+
+
 
 -(void)viewDidDisappear:(BOOL)animated{
 	timer=nil;
