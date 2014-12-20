@@ -15,28 +15,43 @@
     // Override point for customization after application launch.
     UIStoryboard *storyboard;   // StoryBoardの型宣言
     NSString *storyBoardName;  // StoryBoardの名称設定用
+    const float version = [[[UIDevice currentDevice] systemVersion] floatValue];
+    NSLog(@"%f", version);
     
     // 機種の取得
     NSString *modelname = [ [UIDevice currentDevice] model];
     
     // iPadかどうか判断する
+    CGRect r = [[UIScreen mainScreen] bounds];
     if ( ![modelname hasPrefix:@"iPad"] ) {
-        
-        // Windowスクリーンのサイズを取得
-        CGRect r = [[UIScreen mainScreen] bounds];
-        // 縦の長さが480の場合、古いiPhoneだと判定
-        if(r.size.width == 480){
-             NSLog(@"iPhone 4/4S");
-            storyBoardName = @"3.5";
-        }if (r.size.width == 568){
-             NSLog(@"iPhone 5/5S/5C");
-            storyBoardName = @"4.0";
-        }if (r.size.width == 667){
-            NSLog(@"iPhone 6");
-            storyBoardName=@"4.7";
-        }if (r.size.width == 736) {
-            NSLog(@"Bending Machine");
-            storyBoardName=@"5.5";
+        if (version<7.5) {
+            if(r.size.height == 480){
+                NSLog(@"iPhone 4/4S");
+                storyBoardName = @"3.5";
+            }if (r.size.height == 568){
+                NSLog(@"iPhone 5/5S/5C");
+                storyBoardName = @"4.0";
+            }if (r.size.height == 667){
+                NSLog(@"iPhone 6");
+                storyBoardName=@"4.7";
+            }if (r.size.height == 736) {
+                NSLog(@"Bending Machine");
+                storyBoardName=@"5.5";
+            }else{
+            if (r.size.width == 480){
+                NSLog(@"iPhone 4/4S");
+                storyBoardName = @"3.5";
+            }if (r.size.width == 568){
+                NSLog(@"iPhone 5/5S/5C");
+                storyBoardName = @"4.0";
+            }if (r.size.width == 667){
+                NSLog(@"iPhone 6");
+                storyBoardName=@"4.7";
+            }if (r.size.width == 736) {
+                NSLog(@"Bending Machine");
+                storyBoardName=@"5.5";
+            }
+            }
         }
     }else{
          NSLog(@"iPad");
@@ -44,7 +59,6 @@
     }
     // StoryBoardのインスタンス化
     storyboard = [UIStoryboard storyboardWithName:storyBoardName bundle:nil];
-    
     // 画面の生成
     UIViewController *mainViewController = [storyboard instantiateInitialViewController];
     

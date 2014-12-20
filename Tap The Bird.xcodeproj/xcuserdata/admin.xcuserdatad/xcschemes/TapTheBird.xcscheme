@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84675A551941D24E00932E4F"
-               BuildableName = "TapTheBird.app"
-               BlueprintName = "TapTheBird"
-               ReferencedContainer = "container:TapTheBird.xcodeproj">
+               BuildableName = "Tap The Bird.app"
+               BlueprintName = "Tap The Bird"
+               ReferencedContainer = "container:Tap The Bird.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84675A551941D24E00932E4F"
-            BuildableName = "TapTheBird.app"
-            BlueprintName = "TapTheBird"
-            ReferencedContainer = "container:TapTheBird.xcodeproj">
+            BuildableName = "Tap The Bird.app"
+            BlueprintName = "Tap The Bird"
+            ReferencedContainer = "container:Tap The Bird.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84675A551941D24E00932E4F"
-            BuildableName = "TapTheBird.app"
-            BlueprintName = "TapTheBird"
-            ReferencedContainer = "container:TapTheBird.xcodeproj">
+            BuildableName = "Tap The Bird.app"
+            BlueprintName = "Tap The Bird"
+            ReferencedContainer = "container:Tap The Bird.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84675A551941D24E00932E4F"
-            BuildableName = "TapTheBird.app"
-            BlueprintName = "TapTheBird"
-            ReferencedContainer = "container:TapTheBird.xcodeproj">
+            BuildableName = "Tap The Bird.app"
+            BlueprintName = "Tap The Bird"
+            ReferencedContainer = "container:Tap The Bird.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

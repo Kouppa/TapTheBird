@@ -64,21 +64,21 @@
 		8457619619455C7200B58486 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		8457619819455CC500B58486 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		8457619A19455D5A00B58486 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		84675A561941D24E00932E4F /* TapTheBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTheBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84675A561941D24E00932E4F /* Tap The Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap The Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84675A591941D24E00932E4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84675A5B1941D24E00932E4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		84675A5D1941D24E00932E4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		84675A611941D24E00932E4F /* TapTheBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTheBird-Info.plist"; sourceTree = "<group>"; };
+		84675A611941D24E00932E4F /* Tap The Bird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap The Bird-Info.plist"; sourceTree = "<group>"; };
 		84675A631941D24E00932E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84675A651941D24E00932E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84675A671941D24E00932E4F /* TapTheBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapTheBird-Prefix.pch"; sourceTree = "<group>"; };
+		84675A671941D24E00932E4F /* Tap The Bird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap The Bird-Prefix.pch"; sourceTree = "<group>"; };
 		84675A681941D24E00932E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84675A691941D24E00932E4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84675A6C1941D24E00932E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/4.0.storyboard; sourceTree = "<group>"; };
 		84675A711941D24F00932E4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84675A771941D24F00932E4F /* TapTheBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTheBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84675A771941D24F00932E4F /* Tap The BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap The BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84675A781941D24F00932E4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		84675A801941D24F00932E4F /* TapTheBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTheBirdTests-Info.plist"; sourceTree = "<group>"; };
+		84675A801941D24F00932E4F /* Tap The BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap The BirdTests-Info.plist"; sourceTree = "<group>"; };
 		84675A821941D24F00932E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84675A841941D24F00932E4F /* TapTheBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapTheBirdTests.m; sourceTree = "<group>"; };
 		84675A8E1941D2C800932E4F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -161,8 +161,8 @@
 		84675A571941D24E00932E4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84675A561941D24E00932E4F /* TapTheBird.app */,
-				84675A771941D24F00932E4F /* TapTheBirdTests.xctest */,
+				84675A561941D24E00932E4F /* Tap The Bird.app */,
+				84675A771941D24F00932E4F /* Tap The BirdTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,10 +216,10 @@
 		84675A601941D24E00932E4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84675A611941D24E00932E4F /* TapTheBird-Info.plist */,
+				84675A611941D24E00932E4F /* Tap The Bird-Info.plist */,
 				84675A621941D24E00932E4F /* InfoPlist.strings */,
 				84675A651941D24E00932E4F /* main.m */,
-				84675A671941D24E00932E4F /* TapTheBird-Prefix.pch */,
+				84675A671941D24E00932E4F /* Tap The Bird-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -236,7 +236,7 @@
 		84675A7F1941D24F00932E4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84675A801941D24F00932E4F /* TapTheBirdTests-Info.plist */,
+				84675A801941D24F00932E4F /* Tap The BirdTests-Info.plist */,
 				84675A811941D24F00932E4F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -263,9 +263,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84675A551941D24E00932E4F /* TapTheBird */ = {
+		84675A551941D24E00932E4F /* Tap The Bird */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBird" */;
+			buildConfigurationList = 84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "Tap The Bird" */;
 			buildPhases = (
 				84675A521941D24E00932E4F /* Sources */,
 				84675A531941D24E00932E4F /* Frameworks */,
@@ -275,14 +275,14 @@
 			);
 			dependencies = (
 			);
-			name = TapTheBird;
+			name = "Tap The Bird";
 			productName = TapTheBird;
-			productReference = 84675A561941D24E00932E4F /* TapTheBird.app */;
+			productReference = 84675A561941D24E00932E4F /* Tap The Bird.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84675A761941D24F00932E4F /* TapTheBirdTests */ = {
+		84675A761941D24F00932E4F /* Tap The BirdTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBirdTests" */;
+			buildConfigurationList = 84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "Tap The BirdTests" */;
 			buildPhases = (
 				84675A731941D24F00932E4F /* Sources */,
 				84675A741941D24F00932E4F /* Frameworks */,
@@ -293,9 +293,9 @@
 			dependencies = (
 				84675A7D1941D24F00932E4F /* PBXTargetDependency */,
 			);
-			name = TapTheBirdTests;
+			name = "Tap The BirdTests";
 			productName = TapTheBirdTests;
-			productReference = 84675A771941D24F00932E4F /* TapTheBirdTests.xctest */;
+			productReference = 84675A771941D24F00932E4F /* Tap The BirdTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -319,7 +319,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84675A511941D24E00932E4F /* Build configuration list for PBXProject "TapTheBird" */;
+			buildConfigurationList = 84675A511941D24E00932E4F /* Build configuration list for PBXProject "Tap The Bird" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -332,8 +332,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84675A551941D24E00932E4F /* TapTheBird */,
-				84675A761941D24F00932E4F /* TapTheBirdTests */,
+				84675A551941D24E00932E4F /* Tap The Bird */,
+				84675A761941D24F00932E4F /* Tap The BirdTests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,7 +401,7 @@
 /* Begin PBXTargetDependency section */
 		84675A7D1941D24F00932E4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84675A551941D24E00932E4F /* TapTheBird */;
+			target = 84675A551941D24E00932E4F /* Tap The Bird */;
 			targetProxy = 84675A7C1941D24F00932E4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,14 +511,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
-				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				GCC_PREFIX_HEADER = "TapTheBird/Tap The Bird-Prefix.pch";
+				INFOPLIST_FILE = "TapTheBird/Tap The Bird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tap The Bird";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,14 +531,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
-				INFOPLIST_FILE = "TapTheBird/TapTheBird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				GCC_PREFIX_HEADER = "TapTheBird/Tap The Bird-Prefix.pch";
+				INFOPLIST_FILE = "TapTheBird/Tap The Bird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tap The Bird";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -559,8 +559,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TapTheBirdTests/TapTheBirdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TapTheBirdTests/Tap The BirdTests-Info.plist";
+				PRODUCT_NAME = "Tap The BirdTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -577,8 +577,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTheBird/TapTheBird-Prefix.pch";
-				INFOPLIST_FILE = "TapTheBirdTests/TapTheBirdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TapTheBirdTests/Tap The BirdTests-Info.plist";
+				PRODUCT_NAME = "Tap The BirdTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -587,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84675A511941D24E00932E4F /* Build configuration list for PBXProject "TapTheBird" */ = {
+		84675A511941D24E00932E4F /* Build configuration list for PBXProject "Tap The Bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84675A861941D24F00932E4F /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBird" */ = {
+		84675A881941D24F00932E4F /* Build configuration list for PBXNativeTarget "Tap The Bird" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84675A891941D24F00932E4F /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "TapTheBirdTests" */ = {
+		84675A8B1941D24F00932E4F /* Build configuration list for PBXNativeTarget "Tap The BirdTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84675A8C1941D24F00932E4F /* Debug */,
