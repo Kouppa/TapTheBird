@@ -47,9 +47,6 @@
                                     <segue destination="h4G-Xw-cgd" kind="modal" modalTransitionStyle="crossDissolve" id="M5Z-Z6-jgV"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uHd-uj-raf">
-                                <rect key="frame" x="124" y="270" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -58,9 +55,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="titleAd" destination="uHd-uj-raf" id="hWh-dw-m41"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,9 +107,6 @@
                                     <action selector="noQuit" destination="7Zm-bZ-MhS" eventType="touchUpInside" id="uFZ-ft-I5y"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2P-Nm-9H3">
-                                <rect key="frame" x="124" y="0.0" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -125,9 +116,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="titleAd" destination="a2P-Nm-9H3" id="QgP-o8-edI"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwn-7d-ZqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -592,9 +580,6 @@
                                 <color key="textColor" red="0.0" green="0.38469038929999999" blue="0.80102040819999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qtr-fH-Ry9">
-                                <rect key="frame" x="124" y="270" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -605,7 +590,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="failreason" destination="7ZW-cB-SlY" id="vtQ-Dr-82F"/>
-                        <outlet property="loseAd" destination="Qtr-fH-Ry9" id="oHp-mC-5pL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORY-4g-iY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -696,9 +680,6 @@
                                     <action selector="btnTwitterSharing_Clicked:" destination="bO3-7u-M5A" eventType="touchDown" id="jhW-Ew-fO9"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WI6-OG-Iiv">
-                                <rect key="frame" x="124" y="270" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -710,7 +691,6 @@
                     <connections>
                         <outlet property="FinalScore" destination="wBW-KE-m9e" id="QRW-MX-AOp"/>
                         <outlet property="HighScore" destination="aWF-PO-hMx" id="ZAG-IY-c5b"/>
-                        <outlet property="winAd" destination="WI6-OG-Iiv" id="glw-ts-krB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="34z-90-1WM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -732,6 +712,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="KYu-Ym-gZE"/>
+        <segue reference="r5q-54-GhN"/>
     </inferredMetricsTieBreakers>
 </document>

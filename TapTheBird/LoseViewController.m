@@ -11,6 +11,7 @@
 #import "GameViewController.h"
 #import "LoseViewController.h"
 #import "WinViewController.h"
+#import <RevMobAds/RevMobAds.h>
 
 @interface LoseViewController ()
 
@@ -35,7 +36,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view addSubview:loseAd];
     if (failnum==1) {
         failreason.text=[NSString stringWithFormat:@"...because you were too slow!"];
     }else if (failnum==2){

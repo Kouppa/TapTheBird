@@ -44,9 +44,6 @@
                                     <segue destination="Kbz-35-ifM" kind="modal" modalTransitionStyle="crossDissolve" id="sNJ-gK-xmh"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v6V-re-zXn">
-                                <rect key="frame" x="208" y="364" width="320" height="50"/>
-                            </adBannerView>
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TAP THE.png" translatesAutoresizingMaskIntoConstraints="NO" id="Olh-CR-xuW">
                                 <rect key="frame" x="204" y="34" width="329" height="64"/>
                             </imageView>
@@ -58,9 +55,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <outlet property="titleAd" destination="v6V-re-zXn" id="uJG-vL-Roa"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="du5-a8-bcC" sceneMemberID="firstResponder"/>
             </objects>
@@ -520,9 +514,6 @@
                                 <color key="textColor" red="0.0" green="0.38469038929999999" blue="0.80102040819999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-1k-egP">
-                                <rect key="frame" x="208" y="364" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Lost..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNe-lh-nnD">
                                 <rect key="frame" x="267" y="58" width="203" height="38"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="40"/>
@@ -539,7 +530,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="failreason" destination="7KK-im-bWM" id="4gz-uT-Nbh"/>
-                        <outlet property="loseAd" destination="4Zt-1k-egP" id="cWY-2G-REi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ujJ-VX-jY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -618,9 +608,6 @@
                                     <action selector="btnTwitterSharing_Clicked:" destination="jsF-43-lz9" eventType="touchDown" id="b1g-xK-kCP"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="flP-rl-WVS">
-                                <rect key="frame" x="208" y="364" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I failed." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-eu-fX2">
                                 <rect key="frame" x="71" y="93" width="269" height="35"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="25"/>
@@ -644,7 +631,6 @@
                     <connections>
                         <outlet property="FinalScore" destination="J7v-eu-fX2" id="SF4-ye-LQ3"/>
                         <outlet property="HighScore" destination="td2-pT-VTO" id="nck-Gw-Rej"/>
-                        <outlet property="winAd" destination="flP-rl-WVS" id="CSg-KM-rgV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gxp-9o-TJK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -692,9 +678,6 @@
                                     <action selector="noQuit" destination="ua4-18-QDS" eventType="touchUpInside" id="S1x-kc-es4"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HF9-Qc-YUg">
-                                <rect key="frame" x="208" y="0.0" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you sure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPw-6Q-cfB">
                                 <rect key="frame" x="245" y="93" width="246" height="55"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="40"/>
@@ -710,9 +693,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <outlet property="titleAd" destination="HF9-Qc-YUg" id="Jk7-kN-e7t"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oxn-Qo-CtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -728,6 +708,6 @@
         <image name="bg.jpg" width="640" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VaZ-vH-Q1I"/>
+        <segue reference="DKb-NA-r4X"/>
     </inferredMetricsTieBreakers>
 </document>

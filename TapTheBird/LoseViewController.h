@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <RevMobAds/RevMobAds.h>
 
 @interface LoseViewController : UIViewController{
     IBOutlet UILabel *failreason;
-    IBOutlet ADBannerView *loseAd;
 }
 
 -(IBAction)backToTop;

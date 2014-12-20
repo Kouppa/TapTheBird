@@ -36,9 +36,6 @@
                                     <segue destination="81t-Av-kAx" kind="modal" modalTransitionStyle="crossDissolve" id="beV-Lk-p4Q"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dy1-gm-L3N">
-                                <rect key="frame" x="75" y="270" width="320" height="50"/>
-                            </adBannerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vro-wI-4Qb">
                                 <rect key="frame" x="16" y="8" width="37" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -58,9 +55,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="titleAd" destination="dy1-gm-L3N" id="VCg-sK-70l"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="881-f1-jp5" sceneMemberID="firstResponder"/>
             </objects>
@@ -519,9 +513,6 @@
                                     <action selector="backToTop" destination="INq-Oj-Avg" eventType="touchDown" id="T2u-3o-NJ0"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ye-8u-iod">
-                                <rect key="frame" x="80" y="270" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Because I failed at programming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTM-Qz-8kL">
                                 <rect key="frame" x="-6" y="81" width="490" height="41"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="30"/>
@@ -538,7 +529,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="failreason" destination="RTM-Qz-8kL" id="Qee-Nd-xTe"/>
-                        <outlet property="loseAd" destination="1Ye-8u-iod" id="bne-ph-1zh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WE2-V0-cA6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -623,9 +613,6 @@
                                     <action selector="btnTwitterSharing_Clicked:" destination="G3v-ZE-Xyt" eventType="touchDown" id="WDo-qG-iaa"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A2e-O7-avj">
-                                <rect key="frame" x="80" y="270" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Won!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7L-0w-HV9">
                                 <rect key="frame" x="147" y="20" width="186" height="46"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="40"/>
@@ -643,7 +630,6 @@
                     <connections>
                         <outlet property="FinalScore" destination="cDm-Rk-Isn" id="SR2-Pd-HJB"/>
                         <outlet property="HighScore" destination="4uf-bP-wr3" id="3Mp-zp-IpR"/>
-                        <outlet property="winAd" destination="A2e-O7-avj" id="tSF-va-Ksv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NPi-rH-IVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -697,9 +683,6 @@
                                     <action selector="noQuit" destination="RD1-g0-Ciq" eventType="touchUpInside" id="Ymj-Nq-PhF"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Or3-xh-Xz8">
-                                <rect key="frame" x="80" y="0.0" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -709,9 +692,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="titleAd" destination="Or3-xh-Xz8" id="ynv-AJ-02Q"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZ9-vg-fo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -727,6 +707,6 @@
         <image name="bg.jpg" width="640" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WYX-Lz-rhI"/>
+        <segue reference="gPf-M4-7LK"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -17,7 +17,6 @@
 		84675A6A1941D24E00932E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675A691941D24E00932E4F /* AppDelegate.m */; };
 		84675A6D1941D24E00932E4F /* 4.0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84675A6B1941D24E00932E4F /* 4.0.storyboard */; };
 		84675A721941D24F00932E4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84675A711941D24F00932E4F /* Images.xcassets */; };
-		84675A791941D24F00932E4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A781941D24F00932E4F /* XCTest.framework */; };
 		84675A7A1941D24F00932E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A591941D24E00932E4F /* Foundation.framework */; };
 		84675A7B1941D24F00932E4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84675A5D1941D24E00932E4F /* UIKit.framework */; };
 		84675A831941D24F00932E4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84675A811941D24F00932E4F /* InfoPlist.strings */; };
@@ -48,6 +47,9 @@
 		84CCC9241A234B7300CBEBC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CCC9231A234B7300CBEBC7 /* SystemConfiguration.framework */; };
 		84DC30D219DEB70300AE90E0 /* LoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D119DEB70300AE90E0 /* LoseViewController.m */; };
 		84DC30D519DEB70D00AE90E0 /* WinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC30D419DEB70D00AE90E0 /* WinViewController.m */; };
+		84F4B5CD1A456B34000533BF /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4B5CC1A456B33000533BF /* RevMobAds.framework */; };
+		84F4B5CF1A456B62000533BF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4B5CE1A456B62000533BF /* MediaPlayer.framework */; };
+		84F4B5D01A456B6C000533BF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457619619455C7200B58486 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +79,6 @@
 		84675A6C1941D24E00932E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/4.0.storyboard; sourceTree = "<group>"; };
 		84675A711941D24F00932E4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84675A771941D24F00932E4F /* Tap The BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap The BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84675A781941D24F00932E4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84675A801941D24F00932E4F /* Tap The BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap The BirdTests-Info.plist"; sourceTree = "<group>"; };
 		84675A821941D24F00932E4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84675A841941D24F00932E4F /* TapTheBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapTheBirdTests.m; sourceTree = "<group>"; };
@@ -112,6 +113,8 @@
 		84DC30D119DEB70300AE90E0 /* LoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoseViewController.m; sourceTree = "<group>"; };
 		84DC30D319DEB70D00AE90E0 /* WinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinViewController.h; sourceTree = "<group>"; };
 		84DC30D419DEB70D00AE90E0 /* WinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinViewController.m; sourceTree = "<group>"; };
+		84F4B5CC1A456B33000533BF /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		84F4B5CE1A456B62000533BF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +122,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4B5D01A456B6C000533BF /* AdSupport.framework in Frameworks */,
+				84F4B5CF1A456B62000533BF /* MediaPlayer.framework in Frameworks */,
 				84675A911941D2D800932E4F /* StoreKit.framework in Frameworks */,
 				84675A931941D30200932E4F /* AVFoundation.framework in Frameworks */,
 				84675A5C1941D24E00932E4F /* CoreGraphics.framework in Frameworks */,
 				84CCC9241A234B7300CBEBC7 /* SystemConfiguration.framework in Frameworks */,
 				84CCC9221A234B6A00CBEBC7 /* MessageUI.framework in Frameworks */,
+				84F4B5CD1A456B34000533BF /* RevMobAds.framework in Frameworks */,
 				84CCC9201A234B6400CBEBC7 /* AudioToolbox.framework in Frameworks */,
 				8457619B19455D5A00B58486 /* Twitter.framework in Frameworks */,
 				8457619919455CC500B58486 /* iAd.framework in Frameworks */,
@@ -138,7 +144,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84675A791941D24F00932E4F /* XCTest.framework in Frameworks */,
 				84675A7B1941D24F00932E4F /* UIKit.framework in Frameworks */,
 				84675A7A1941D24F00932E4F /* Foundation.framework in Frameworks */,
 			);
@@ -170,6 +175,8 @@
 		84675A581941D24E00932E4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84F4B5CE1A456B62000533BF /* MediaPlayer.framework */,
+				84F4B5CC1A456B33000533BF /* RevMobAds.framework */,
 				84CCC9231A234B7300CBEBC7 /* SystemConfiguration.framework */,
 				84CCC9211A234B6A00CBEBC7 /* MessageUI.framework */,
 				84CCC91F1A234B6400CBEBC7 /* AudioToolbox.framework */,
@@ -183,7 +190,6 @@
 				84675A591941D24E00932E4F /* Foundation.framework */,
 				84675A5B1941D24E00932E4F /* CoreGraphics.framework */,
 				84675A5D1941D24E00932E4F /* UIKit.framework */,
-				84675A781941D24F00932E4F /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -510,10 +516,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTheBird/Tap The Bird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/Tap The Bird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",
@@ -530,10 +540,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TapTheBird/Tap The Bird-Prefix.pch";
 				INFOPLIST_FILE = "TapTheBird/Tap The Bird-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",

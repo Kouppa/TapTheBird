@@ -37,9 +37,6 @@
                                     <segue destination="cAu-io-Gzm" kind="modal" modalTransitionStyle="partialCurl" id="WHF-MN-Eeh"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0T-Xc-B27">
-                                <rect key="frame" x="173" y="325" width="320" height="50"/>
-                            </adBannerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7b-AQ-LjZ">
                                 <rect key="frame" x="268" y="199" width="130" height="118"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,9 +55,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="titleAd" destination="p0T-Xc-B27" id="a6c-1v-lWQ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4Z-6x-IUD" sceneMemberID="firstResponder"/>
             </objects>
@@ -525,9 +519,6 @@
                                 <color key="textColor" red="0.0" green="0.38469038929999999" blue="0.80102040819999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GLN-OT-7G4">
-                                <rect key="frame" x="173" y="325" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -538,7 +529,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="failreason" destination="Y5H-wi-FB2" id="kgV-ay-nFx"/>
-                        <outlet property="loseAd" destination="GLN-OT-7G4" id="D3g-RE-atM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ef1-fo-iQe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -617,9 +607,6 @@
                                     <action selector="btnTwitterSharing_Clicked:" destination="MW7-aa-9bj" eventType="touchDown" id="lm6-wV-J2c"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fOZ-so-WNw">
-                                <rect key="frame" x="173" y="325" width="320" height="50"/>
-                            </adBannerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I failed." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8h-00-Jp3">
                                 <rect key="frame" x="60" y="97" width="269" height="35"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="25"/>
@@ -644,7 +631,6 @@
                     <connections>
                         <outlet property="FinalScore" destination="i8h-00-Jp3" id="kxB-KD-rTE"/>
                         <outlet property="HighScore" destination="hcr-fH-kI0" id="BDC-1h-XnW"/>
-                        <outlet property="winAd" destination="fOZ-so-WNw" id="Yxg-Ud-KIE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQF-Wf-SWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -698,9 +684,6 @@
                                     <action selector="noQuit" destination="cAu-io-Gzm" eventType="touchUpInside" id="ZZh-ZE-UEB"/>
                                 </connections>
                             </button>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Say-HJ-9Pk">
-                                <rect key="frame" x="173" y="0.0" width="320" height="50"/>
-                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -710,9 +693,6 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="titleAd" destination="Say-HJ-9Pk" id="5bI-0a-aNn"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="roT-km-UcA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -728,6 +708,6 @@
         <image name="bg.jpg" width="640" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wDG-dz-1Xe"/>
+        <segue reference="qek-mO-Kai"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 //
 
 #import "TitleViewController.h"
+#import <RevMobAds/RevMobAds.h>
 
 
 @interface TitleViewController ()
@@ -20,7 +21,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        [self.view addSubview:titleAd];
     }
     return self;
 }

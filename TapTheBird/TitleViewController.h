@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <iAd/iAd.h>
+#import <RevMobAds/RevMobAds.h>
+
 int birdNumber;
 
 @interface TitleViewController : UIViewController
-{
-    IBOutlet ADBannerView *titleAd;
-}
+
+
 -(IBAction)exit;
 -(IBAction)noQuit;
 
