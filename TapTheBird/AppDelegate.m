@@ -7,11 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import <RevMobAds/RevMobAds.h>
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    [RevMobAds startSessionWithAppID:@"5495336dc30ade2c5edf0534"];
     // Override point for customization after application launch.
     UIStoryboard *storyboard;   // StoryBoardの型宣言
     NSString *storyBoardName;  // StoryBoardの名称設定用
@@ -89,6 +90,7 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [RevMobAds session].parallaxMode = RevMobParallaxModeOff;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

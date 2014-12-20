@@ -11,6 +11,7 @@
 #import "GameViewController.h"
 #import "LoseViewController.h"
 #import "WinViewController.h"
+#import <RevMobAds/RevMobAds.h>
 
 @interface GameViewController ()
 
@@ -283,6 +284,8 @@
 
 -(IBAction)i1{
 	tapcoords=1;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==1) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -291,8 +294,9 @@
 }
 
 -(IBAction)i2{
-	tapcoords=3;
-	if (coords==3) {
+	tapcoords=2;
+	[[RevMobAds session] showFullscreen];
+	if (coords==2) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
 	[self performSegueWithIdentifier:@"GameLose" sender:nil];
@@ -302,6 +306,8 @@
 
 -(IBAction)i3{
 	tapcoords=3;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==3) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -311,6 +317,8 @@
 
 -(IBAction)i4{
 	tapcoords=4;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==4) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -320,6 +328,8 @@
 
 -(IBAction)i5{
 	tapcoords=5;
+	[[RevMobAds session] showBanner];
+	[[RevMobAds session] showFullscreen];
 	if (coords==5) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -329,6 +339,8 @@
 
 -(IBAction)i6{
 	tapcoords=6;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==6) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -338,6 +350,8 @@
 
 -(IBAction)i7{
 	tapcoords=7;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==7) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -347,6 +361,8 @@
 
 -(IBAction)i8{
 	tapcoords=8;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==8) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -356,6 +372,8 @@
 
 -(IBAction)i9{
 	tapcoords=9;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==9) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -365,6 +383,8 @@
 
 -(IBAction)i10{
 	tapcoords=10;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==10) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -374,6 +394,8 @@
 
 -(IBAction)i11{
 	tapcoords=11;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==11) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -383,6 +405,8 @@
 
 -(IBAction)i12{
 	tapcoords=12;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==12) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -392,6 +416,8 @@
 
 -(IBAction)i13{
 	tapcoords=13;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==13) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -401,6 +427,8 @@
 
 -(IBAction)i14{
 	tapcoords=14;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==14) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -410,6 +438,8 @@
 
 -(IBAction)i15{
 	tapcoords=15;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==15) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -419,6 +449,8 @@
 
 -(IBAction)i16{
 	tapcoords=16;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==16) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -428,6 +460,8 @@
 
 -(IBAction)i17{
 	tapcoords=17;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==17) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -437,6 +471,8 @@
 
 -(IBAction)i18{
 	tapcoords=18;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==18) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -446,6 +482,8 @@
 
 -(IBAction)i19{
 	tapcoords=19;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==19) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -455,6 +493,8 @@
 
 -(IBAction)i20{
 	tapcoords=20;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==20) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -464,6 +504,8 @@
 
 -(IBAction)i21{
 	tapcoords=21;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==21) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -473,6 +515,8 @@
 
 -(IBAction)i22{
 	tapcoords=22;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==22) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -482,6 +526,8 @@
 
 -(IBAction)i23{
 	tapcoords=23;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==23) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;
@@ -491,6 +537,8 @@
 
 -(IBAction)i24{
 	tapcoords=24;
+	[[RevMobAds session] showFullscreen];
+	[[RevMobAds session] showBanner];
 	if (coords==24) {
 		[self performSegueWithIdentifier:@"GameWin" sender:nil];
 	}else{failnum=2;

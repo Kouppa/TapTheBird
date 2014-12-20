@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <RevMobAds/RevMobAds.h>
 
-@interface WinViewController : UIViewController<ADInterstitialAdDelegate>{
+@interface WinViewController : UIViewController{
     IBOutlet UILabel *FinalScore;
     float thisscore;
     float highscore;

@@ -652,7 +652,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGq-ac-Gbu">
-                                <rect key="frame" x="84" y="197" width="113" height="103"/>
+                                <rect key="frame" x="84" y="158" width="113" height="103"/>
                                 <color key="backgroundColor" red="0.98641097550000001" green="0.091863922769999995" blue="0.16497598590000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Exit">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -662,19 +662,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you sure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xR-eD-cev">
-                                <rect key="frame" x="117" y="71" width="246" height="55"/>
+                                <rect key="frame" x="117" y="32" width="246" height="55"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.38469038929999999" blue="0.80102040819999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you want to exit?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FyI-CZ-Wv4">
-                                <rect key="frame" x="74" y="134" width="332" height="55"/>
+                                <rect key="frame" x="74" y="95" width="332" height="55"/>
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Bold" family="Iowan Old Style" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.38469038929999999" blue="0.80102040819999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-Gl-ATM">
-                                <rect key="frame" x="293" y="197" width="113" height="103"/>
+                                <rect key="frame" x="293" y="158" width="113" height="103"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

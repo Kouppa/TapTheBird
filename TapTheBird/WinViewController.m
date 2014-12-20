@@ -36,7 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
     thisscore=100-timercount;
     FinalScore.text=[NSString stringWithFormat:@"%.0f points!",thisscore];
     NSUserDefaults *highScore=[NSUserDefaults standardUserDefaults];
