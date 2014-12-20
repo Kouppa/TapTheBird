@@ -40,6 +40,8 @@ int failnum;
     IBOutlet UIImageView *image23;
     IBOutlet UIImageView *image24;
     int coords;
+    int thisBird;
+    int thisOneYN;
 }
 
 -(IBAction)i1;

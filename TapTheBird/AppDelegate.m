@@ -38,20 +38,20 @@
             }if (r.size.height == 736) {
                 NSLog(@"Bending Machine");
                 storyBoardName=@"5.5";
-            }else{
-            if (r.size.width == 480){
-                NSLog(@"iPhone 4/4S");
-                storyBoardName = @"3.5";
-            }if (r.size.width == 568){
-                NSLog(@"iPhone 5/5S/5C");
-                storyBoardName = @"4.0";
-            }if (r.size.width == 667){
-                NSLog(@"iPhone 6");
-                storyBoardName=@"4.7";
-            }if (r.size.width == 736) {
-                NSLog(@"Bending Machine");
-                storyBoardName=@"5.5";
             }
+        }else{
+        if (r.size.width == 480){
+            NSLog(@"iPhone 4/4S");
+            storyBoardName = @"3.5";
+        }if (r.size.width == 568){
+            NSLog(@"iPhone 5/5S/5C");
+            storyBoardName = @"4.0";
+        }if (r.size.width == 667){
+            NSLog(@"iPhone 6");
+            storyBoardName=@"4.7";
+        }if (r.size.width == 736) {
+            NSLog(@"Bending Machine");
+            storyBoardName=@"5.5";
             }
         }
     }else{
