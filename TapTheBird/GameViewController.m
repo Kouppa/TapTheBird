@@ -43,6 +43,9 @@
 	}else{
 		thisOneYN=0;
 	}
+	if (thisOneYN==0) {
+		[self randombird];
+	}
 	timercount=0;
 	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
 }
@@ -275,7 +278,6 @@
 		failnum=1;
 		[self performSegueWithIdentifier:@"GameLose" sender:nil];
 		[timer invalidate];
-		
 	}
 }
 
@@ -293,7 +295,37 @@
 	}
 }
 
+-(void)randomBirdGen{
+	randomBird=arc4random_uniform(4)+1;
+}
 
+-(void)randomCoordGen{
+	randomCoords=arc4random_uniform(23)+1;
+}
+
+-(void)randombird{
+	[self randomBirdGen];
+	if (randomBird==birdNumber) {
+		[self randomBirdGen];
+		if (randomBird==birdNumber) {
+			[self randomBirdGen];
+			if (randomBird==birdNumber) {
+				[self randomBirdGen];
+				if (randomBird==birdNumber) {
+					[self randomBirdGen];
+					if (randomBird==birdNumber) {
+						[self randomBirdGen];
+						if (randomBird==birdNumber) {
+							[self randomBirdGen];
+						}
+					}
+				}
+			}
+		}
+	}else{
+		[self randomCoordGen];
+	}
+}
 
 -(void)viewDidDisappear:(BOOL)animated{
 	timer=nil;
@@ -312,7 +344,7 @@
 	if (adkind==0) {
 		[[RevMobAds session] showPopup];
 	}else{
-		[[RevMobAds session] showFullscreen];
+		[[RevMobAds session] showFullscrefen];
 	}
 }
 
