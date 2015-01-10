@@ -44,6 +44,9 @@ int failnum;
     int thisOneYN;
     int randomBird;
     int randomCoords;
+    int finalCoords;
+    int finalBird;
+    int birdAmount;
 }
 
 -(IBAction)i1;
