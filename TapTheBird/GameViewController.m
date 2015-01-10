@@ -47,6 +47,9 @@
 		[self randombird];
 	}
 	timercount=0;
+	if (timer.isValid) {
+		[timer invalidate];
+	}
 	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
 }
 
@@ -292,6 +295,7 @@
 		timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
 	}else{
 		[self.presentingViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+		[self adsetup];
 	}
 }
 
