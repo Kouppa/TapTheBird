@@ -344,7 +344,7 @@
 	if (adkind==0) {
 		[[RevMobAds session] showPopup];
 	}else{
-		[[RevMobAds session] showFullscrefen];
+		[[RevMobAds session] showFullscreen];
 	}
 }
 
