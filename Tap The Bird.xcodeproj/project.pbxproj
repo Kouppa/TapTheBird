@@ -314,6 +314,7 @@
 				ORGANIZATIONNAME = OneMCGuy;
 				TargetAttributes = {
 					84675A551941D24E00932E4F = {
+						DevelopmentTeam = 2LP2D64L26;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -516,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -528,7 +530,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Tap The Bird";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -540,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -552,7 +557,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TapTheBird",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "Tap The Bird";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

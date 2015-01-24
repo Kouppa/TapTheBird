@@ -28,14 +28,14 @@
 		[self placepic];
 		birdAmount=1;
 		thisBird=arc4random_uniform(4)+1;
-		if (thisBird==birdNumber) {
+/*		if (thisBird==birdNumber) {
 			thisOneYN=1;
 		}else{
 			thisOneYN=0;
 		}
 		if (thisOneYN==0) {
 			[self randombird];
-		}
+		}*/
 
     }
     return self;
@@ -47,12 +47,25 @@
 
 - (void)viewDidLoad{
 	// Do any additional setup after loading the view.
+	[super viewDidLoad];
 		timercount=0;
 	if (timer.isValid) {
 		[timer invalidate];
 	}
 	timer=[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(upgame) userInfo:nil repeats:YES];
+	
 }
+
+
+/* 画面が表示されるまでの流れ 
+ ①-loadView
+ ②-viewDidLoad
+ ③-viewWillAppear
+ ④-viewDidAppear
+*/
+
+
+
 
 -(void)upgame{
 	timercount=timercount+0.01;
@@ -127,9 +140,9 @@
 }
 
 -(void)placepic{
-	if (birdAmount>=10) {
-		[self viewDidLoad];
-	}
+//	if (birdAmount>=10) {
+//		[self viewDidLoad];
+//	}
 	 if (coords==1&&birdNumber==1) {
 		image1.image=[UIImage imageNamed:@"B1.png"];
 	}if (coords==2&&birdNumber==1) {
@@ -371,7 +384,7 @@
 	}if (coords==24&&birdNumber==5) {
 		image24.image=[UIImage imageNamed:@"B5.png"];
 	}
-	birdAmount=birdAmount+1;
+//	birdAmount=birdAmount+1;
 }
 
 -(IBAction)i1{
