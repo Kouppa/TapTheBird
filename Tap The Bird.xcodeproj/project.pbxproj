@@ -319,6 +319,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 0;
 							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
 						};
 					};
 					84675A761941D24F00932E4F = {

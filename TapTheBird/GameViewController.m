@@ -19,24 +19,6 @@
 
 @implementation GameViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-		
-/*		if (thisBird==birdNumber) {
-			thisOneYN=1;
-		}else{
-			thisOneYN=0;
-		}
-		if (thisOneYN==0) {
-			[self randombird];
-		}*/
-
-    }
-    return self;
-}
-
 -(IBAction)exit{
     exit(0);
 }
@@ -47,11 +29,10 @@
 	
 	// Custom initialization
 	coords=arc4random_uniform(23)+1;
-	
 	NSLog(@"%d", coords);
-	
-	
-	birdAmount=1;
+	finalCoords=coords;
+	birdNumber=finalBird;
+//	birdAmount=1;
 	thisBird=arc4random_uniform(4)+1;
 	
 	[self placepic];
@@ -108,25 +89,32 @@
 	randomCoords=arc4random_uniform(23)+1;
 }
 
-//-(void)randombird{
-//	if (thisBird==birdNumber) {
-//		BOOL flg = true;
-//		while (flg) {
-//			[self randomBirdGen];
-//			if (thisBird!=birdNumber) {
-//				flg = false;
-//			}
-//		}
-//	}
-//	[self randomCoordGen];
-//	finalCoords=coords;
-//	
-//	//FIXME:hoge
-//	//coords=randomCoords;
-//	//finalBird=birdNumber;
-//	birdNumber=thisBird;
-//	[self placepic];。
-//}
+-(void)randombird{
+	if (thisBird==birdNumber) {
+		BOOL birdTF = true;
+		while (birdTF) {
+			[self randomBirdGen];
+			if (thisBird!=birdNumber) {
+				birdTF = false;
+			}
+		}
+	}
+	[self randomCoordGen];
+	if (randomCoords==finalCoords) {
+		BOOL coordTF=true;
+		while (coordTF) {
+			[self randomCoordGen];
+			if (randomCoords!=finalCoords) {
+				coordTF=FALSE;
+			}
+		}
+	}
+	//FIXME:hoge
+	//coords=randomCoords;
+	//finalBird=birdNumber;
+	birdNumber=thisBird;
+	[self placepic];
+}
 
 -(void)viewDidDisappear:(BOOL)animated{
 	timer=nil;
@@ -153,245 +141,245 @@
 //	if (birdAmount>=10) {
 //		[self viewDidLoad];
 //	}
-	 if (coords==1&&birdNumber==1) {
+	 if (coords==1&&thisBird==1) {
 		image1.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==2&&birdNumber==1) {
+	}if (coords==2&&thisBird==1) {
 		image2.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==3&&birdNumber==1) {
+	}if (coords==3&&thisBird==1) {
 		image3.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==4&&birdNumber==1) {
+	}if (coords==4&&thisBird==1) {
 		image4.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==5&&birdNumber==1) {
+	}if (coords==5&&thisBird==1) {
 		image5.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==6&&birdNumber==1) {
+	}if (coords==6&&thisBird==1) {
 		image6.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==7&&birdNumber==1) {
+	}if (coords==7&&thisBird==1) {
 		image7.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==8&&birdNumber==1) {
+	}if (coords==8&&thisBird==1) {
 		image8.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==9&&birdNumber==1) {
+	}if (coords==9&&thisBird==1) {
 		image9.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==10&&birdNumber==1) {
+	}if (coords==10&&thisBird==1) {
 		image10.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==11&&birdNumber==1) {
+	}if (coords==11&&thisBird==1) {
 		image11.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==12&&birdNumber==1) {
+	}if (coords==12&&thisBird==1) {
 		image12.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==13&&birdNumber==1) {
+	}if (coords==13&&thisBird==1) {
 		image13.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==14&&birdNumber==1) {
+	}if (coords==14&&thisBird==1) {
 		image14.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==15&&birdNumber==1) {
+	}if (coords==15&&thisBird==1) {
 		image15.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==16&&birdNumber==1) {
+	}if (coords==16&&thisBird==1) {
 		image16.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==17&&birdNumber==1) {
+	}if (coords==17&&thisBird==1) {
 		image17.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==18&&birdNumber==1) {
+	}if (coords==18&&thisBird==1) {
 		image18.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==19&&birdNumber==1) {
+	}if (coords==19&&thisBird==1) {
 		image19.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==20&&birdNumber==1) {
+	}if (coords==20&&thisBird==1) {
 		image20.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==21&&birdNumber==1) {
+	}if (coords==21&&thisBird==1) {
 		image21.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==22&&birdNumber==1) {
+	}if (coords==22&&thisBird==1) {
 		image22.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==23&&birdNumber==1) {
+	}if (coords==23&&thisBird==1) {
 		image23.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==24&&birdNumber==1) {
+	}if (coords==24&&thisBird==1) {
 		image24.image=[UIImage imageNamed:@"B1.png"];
-	}if (coords==1&&birdNumber==2) {
+	}if (coords==1&&thisBird==2) {
 		image1.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==2&&birdNumber==2) {
+	}if (coords==2&&thisBird==2) {
 		image2.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==3&&birdNumber==2) {
+	}if (coords==3&&thisBird==2) {
 		image3.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==4&&birdNumber==2) {
+	}if (coords==4&&thisBird==2) {
 		image4.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==5&&birdNumber==2) {
+	}if (coords==5&&thisBird==2) {
 		image5.image=[UIImage imageNamed:@"2.png"];
-	}if (coords==6&&birdNumber==2) {
+	}if (coords==6&&thisBird==2) {
 		image6.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==7&&birdNumber==2) {
+	}if (coords==7&&thisBird==2) {
 		image7.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==8&&birdNumber==2) {
+	}if (coords==8&&thisBird==2) {
 		image8.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==9&&birdNumber==2) {
+	}if (coords==9&&thisBird==2) {
 		image9.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==10&&birdNumber==2) {
+	}if (coords==10&&thisBird==2) {
 		image10.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==11&&birdNumber==2) {
+	}if (coords==11&&thisBird==2) {
 		image11.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==12&&birdNumber==2) {
+	}if (coords==12&&thisBird==2) {
 		image12.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==13&&birdNumber==2) {
+	}if (coords==13&&thisBird==2) {
 		image13.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==14&&birdNumber==2) {
+	}if (coords==14&&thisBird==2) {
 		image14.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==15&&birdNumber==2) {
+	}if (coords==15&&thisBird==2) {
 		image15.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==16&&birdNumber==2) {
+	}if (coords==16&&thisBird==2) {
 		image16.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==17&&birdNumber==2) {
+	}if (coords==17&&thisBird==2) {
 		image17.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==18&&birdNumber==2) {
+	}if (coords==18&&thisBird==2) {
 		image18.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==19&&birdNumber==2) {
+	}if (coords==19&&thisBird==2) {
 		image19.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==20&&birdNumber==2) {
+	}if (coords==20&&thisBird==2) {
 		image20.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==21&&birdNumber==2) {
+	}if (coords==21&&thisBird==2) {
 		image21.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==22&&birdNumber==2) {
+	}if (coords==22&&thisBird==2) {
 		image22.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==23&&birdNumber==2) {
+	}if (coords==23&&thisBird==2) {
 		image23.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==24&&birdNumber==2) {
+	}if (coords==24&&thisBird==2) {
 		image24.image=[UIImage imageNamed:@"B2.png"];
-	}if (coords==1&&birdNumber==2) {
+	}if (coords==1&&thisBird==2) {
 		image1.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==2&&birdNumber==3) {
+	}if (coords==2&&thisBird==3) {
 		image2.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==3&&birdNumber==3) {
+	}if (coords==3&&thisBird==3) {
 		image3.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==4&&birdNumber==3) {
+	}if (coords==4&&thisBird==3) {
 		image4.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==5&&birdNumber==3) {
+	}if (coords==5&&thisBird==3) {
 		image5.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==6&&birdNumber==3) {
+	}if (coords==6&&thisBird==3) {
 		image6.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==7&&birdNumber==3) {
+	}if (coords==7&&thisBird==3) {
 		image7.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==8&&birdNumber==3) {
+	}if (coords==8&&thisBird==3) {
 		image8.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==9&&birdNumber==3) {
+	}if (coords==9&&thisBird==3) {
 		image9.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==10&&birdNumber==3) {
+	}if (coords==10&&thisBird==3) {
 		image10.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==11&&birdNumber==3) {
+	}if (coords==11&&thisBird==3) {
 		image11.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==12&&birdNumber==3) {
+	}if (coords==12&&thisBird==3) {
 		image12.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==13&&birdNumber==3) {
+	}if (coords==13&&thisBird==3) {
 		image13.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==14&&birdNumber==3) {
+	}if (coords==14&&thisBird==3) {
 		image14.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==15&&birdNumber==3) {
+	}if (coords==15&&thisBird==3) {
 		image15.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==16&&birdNumber==3) {
+	}if (coords==16&&thisBird==3) {
 		image16.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==17&&birdNumber==3) {
+	}if (coords==17&&thisBird==3) {
 		image17.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==18&&birdNumber==3) {
+	}if (coords==18&&thisBird==3) {
 		image18.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==19&&birdNumber==3) {
+	}if (coords==19&&thisBird==3) {
 		image19.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==20&&birdNumber==3) {
+	}if (coords==20&&thisBird==3) {
 		image20.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==21&&birdNumber==3) {
+	}if (coords==21&&thisBird==3) {
 		image21.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==22&&birdNumber==3) {
+	}if (coords==22&&thisBird==3) {
 		image22.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==23&&birdNumber==3) {
+	}if (coords==23&&thisBird==3) {
 		image23.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==24&&birdNumber==3) {
+	}if (coords==24&&thisBird==3) {
 		image24.image=[UIImage imageNamed:@"B3.png"];
-	}if (coords==1&&birdNumber==4) {
+	}if (coords==1&&thisBird==4) {
 		image1.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==2&&birdNumber==4) {
+	}if (coords==2&&thisBird==4) {
 		image2.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==3&&birdNumber==4) {
+	}if (coords==3&&thisBird==4) {
 		image3.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==4&&birdNumber==4) {
+	}if (coords==4&&thisBird==4) {
 		image4.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==5&&birdNumber==4) {
+	}if (coords==5&&thisBird==4) {
 		image5.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==6&&birdNumber==4) {
+	}if (coords==6&&thisBird==4) {
 		image6.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==7&&birdNumber==4) {
+	}if (coords==7&&thisBird==4) {
 		image7.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==8&&birdNumber==4) {
+	}if (coords==8&&thisBird==4) {
 		image8.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==9&&birdNumber==4) {
+	}if (coords==9&&thisBird==4) {
 		image9.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==10&&birdNumber==4) {
+	}if (coords==10&&thisBird==4) {
 		image10.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==11&&birdNumber==4) {
+	}if (coords==11&&thisBird==4) {
 		image11.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==12&&birdNumber==4) {
+	}if (coords==12&&thisBird==4) {
 		image12.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==13&&birdNumber==4) {
+	}if (coords==13&&thisBird==4) {
 		image13.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==14&&birdNumber==4) {
+	}if (coords==14&&thisBird==4) {
 		image14.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==15&&birdNumber==4) {
+	}if (coords==15&&thisBird==4) {
 		image15.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==16&&birdNumber==4) {
+	}if (coords==16&&thisBird==4) {
 		image16.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==17&&birdNumber==4) {
+	}if (coords==17&&thisBird==4) {
 		image17.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==18&&birdNumber==4) {
+	}if (coords==18&&thisBird==4) {
 		image18.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==19&&birdNumber==4) {
+	}if (coords==19&&thisBird==4) {
 		image19.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==20&&birdNumber==4) {
+	}if (coords==20&&thisBird==4) {
 		image20.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==21&&birdNumber==4) {
+	}if (coords==21&&thisBird==4) {
 		image21.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==22&&birdNumber==4) {
+	}if (coords==22&&thisBird==4) {
 		image22.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==23&&birdNumber==4) {
+	}if (coords==23&&thisBird==4) {
 		image23.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==24&&birdNumber==4) {
+	}if (coords==24&&thisBird==4) {
 		image24.image=[UIImage imageNamed:@"B4.png"];
-	}if (coords==1&&birdNumber==5) {
+	}if (coords==1&&thisBird==5) {
 		image1.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==2&&birdNumber==5) {
+	}if (coords==2&&thisBird==5) {
 		image2.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==3&&birdNumber==5) {
+	}if (coords==3&&thisBird==5) {
 		image3.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==4&&birdNumber==5) {
+	}if (coords==4&&thisBird==5) {
 		image4.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==5&&birdNumber==5) {
+	}if (coords==5&&thisBird==5) {
 		image5.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==6&&birdNumber==5) {
+	}if (coords==6&&thisBird==5) {
 		image6.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==7&&birdNumber==5) {
+	}if (coords==7&&thisBird==5) {
 		image7.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==8&&birdNumber==5) {
+	}if (coords==8&&thisBird==5) {
 		image8.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==9&&birdNumber==5) {
+	}if (coords==9&&thisBird==5) {
 		image9.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==10&&birdNumber==5) {
+	}if (coords==10&&thisBird==5) {
 		image10.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==11&&birdNumber==5) {
+	}if (coords==11&&thisBird==5) {
 		image11.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==12&&birdNumber==5) {
+	}if (coords==12&&thisBird==5) {
 		image12.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==13&&birdNumber==5) {
+	}if (coords==13&&thisBird==5) {
 		image13.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==14&&birdNumber==5) {
+	}if (coords==14&&thisBird==5) {
 		image14.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==15&&birdNumber==5) {
+	}if (coords==15&&thisBird==5) {
 		image15.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==16&&birdNumber==5) {
+	}if (coords==16&&thisBird==5) {
 		image16.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==17&&birdNumber==5) {
+	}if (coords==17&&thisBird==5) {
 		image17.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==18&&birdNumber==5) {
+	}if (coords==18&&thisBird==5) {
 		image18.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==19&&birdNumber==5) {
+	}if (coords==19&&thisBird==5) {
 		image19.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==20&&birdNumber==5) {
+	}if (coords==20&&thisBird==5) {
 		image20.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==21&&birdNumber==5) {
+	}if (coords==21&&thisBird==5) {
 		image21.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==22&&birdNumber==5) {
+	}if (coords==22&&thisBird==5) {
 		image22.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==23&&birdNumber==5) {
+	}if (coords==23&&thisBird==5) {
 		image23.image=[UIImage imageNamed:@"B5.png"];
-	}if (coords==24&&birdNumber==5) {
+	}if (coords==24&&thisBird==5) {
 		image24.image=[UIImage imageNamed:@"B5.png"];
 	}
 //	birdAmount=birdAmount+1;
