@@ -23,7 +23,7 @@
     exit(0);
 }
 
-- (void)viewDidLoad{
+-(void)viewDidLoad{
 	// Do any additional setup after loading the view.
 	[super viewDidLoad];
 	
@@ -31,19 +31,29 @@
 	coords=arc4random_uniform(23)+1;
 	NSLog(@"%d", coords);
 	birdNumber=finalBird;
-	coords=finalCoords;
+	finalCoords=coords;
 	birdNumber=thisBird;
 	[self placepic];
 	birdAmount=1;
 	BOOL bAmount=true;
-	while (bAmount) {
+//	while (bAmount) {
+//		coords=arc4random_uniform(23)+1;
+//		[self randombird];
+//		birdAmount=birdAmount+1;
+//		if (birdAmount>=10) {
+//			bAmount=false;
+//		}
+//	}
+	
+	do{
 		coords=arc4random_uniform(23)+1;
 		[self randombird];
 		birdAmount=birdAmount+1;
-		if (birdAmount<=10) {
+		if (birdAmount>=10) {
 			bAmount=false;
 		}
-	}
+	}while (bAmount);
+	
 		timercount=0;
 	if (timer.isValid) {
 		[timer invalidate];
@@ -98,22 +108,22 @@
 -(void)randombird{
 	if (thisBird==birdNumber) {
 		BOOL birdTF = true;
-		while (birdTF) {
+		do {
 			[self randomBirdGen];
 			if (thisBird!=birdNumber) {
 				birdTF = false;
 			}
-		}
+		}while (birdTF);
 	}
 	[self randomCoordGen];
 	if (randomCoords==finalCoords) {
 		BOOL coordTF=true;
-		while (coordTF) {
+		do {
 			[self randomCoordGen];
 			if (randomCoords!=finalCoords) {
 				coordTF=FALSE;
 			}
-		}
+		}while (coordTF);
 	}
 	[self placepic];
 }
