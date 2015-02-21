@@ -30,9 +30,9 @@
 	// Custom initialization
 	coords=arc4random_uniform(23)+1;
 	NSLog(@"%d", coords);
-	birdNumber=finalBird;
+	finalBird=birdNumber;
 	finalCoords=coords;
-	birdNumber=thisBird;
+	thisBird=birdNumber;
 	[self placepic];
 	birdAmount=1;
 	BOOL bAmount=true;
@@ -45,11 +45,14 @@
 //		}
 //	}
 	
+	
+	
+	
 	do{
 		coords=arc4random_uniform(23)+1;
 		[self randombird];
 		birdAmount=birdAmount+1;
-		if (birdAmount>=10) {
+		if (birdAmount>=20) {
 			bAmount=false;
 		}
 	}while (bAmount);
@@ -106,6 +109,7 @@
 }
 
 -(void)randombird{
+	[self randomBirdGen];
 	if (thisBird==birdNumber) {
 		BOOL birdTF = true;
 		do {
