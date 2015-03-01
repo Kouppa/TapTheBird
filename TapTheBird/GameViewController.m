@@ -30,10 +30,11 @@
 	// Custom initialization
 	coords=arc4random_uniform(23)+1;
 	NSLog(@"%d", coords);
-	finalBird=birdNumber;
-	finalCoords=coords;
+//	finalBird=birdNumber;
+//	finalCoords=coords;
 	thisBird=birdNumber;
 	[self placepic];
+	NSLog(@"%d", coords);
 	birdAmount=1;
 	BOOL bAmount=true;
 //	while (bAmount) {
@@ -45,18 +46,14 @@
 //		}
 //	}
 	
-	
-	
-	
 	do{
 		coords=arc4random_uniform(23)+1;
 		[self randombird];
 		birdAmount=birdAmount+1;
-		if (birdAmount>=20) {
+		if (birdAmount>=15) {
 			bAmount=false;
 		}
 	}while (bAmount);
-	
 		timercount=0;
 	if (timer.isValid) {
 		[timer invalidate];
@@ -144,16 +141,17 @@
 }
 
 -(void)adsetup{
-	[[RevMobAds session] showBanner];
+//	[[RevMobAds session] showBanner];
 	int adkind=arc4random_uniform(5);
 	if (adkind==0) {
 		[[RevMobAds session] showPopup];
 	}else{
-		[[RevMobAds session] showFullscreen];
+//		[[RevMobAds session] showFullscreen];
 	}
 }
 
 -(void)placepic{
+	NSLog(@"%d", coords);
 	 if (coords==1&&thisBird==1) {
 		image1.image=[UIImage imageNamed:@"B1.png"];
 	}if (coords==2&&thisBird==1) {
@@ -395,6 +393,7 @@
 	}if (coords==24&&thisBird==5) {
 		image24.image=[UIImage imageNamed:@"B5.png"];
 	}
+	NSLog(@"%d", coords);
 }
 
 -(IBAction)i1{
